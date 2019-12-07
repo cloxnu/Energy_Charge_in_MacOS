@@ -1,0 +1,6 @@
+framework module Pods_Energy_Charge {
+  umbrella header "Pods-Energy_Charge-umbrella.h"
+
+  export *
+  module * { export * }
+}

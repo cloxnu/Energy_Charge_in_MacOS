@@ -1,0 +1,525 @@
+2019-12-07 18:08:01 +0000  Initial pipeline context: <IDEDistributionProcessingPipelineContext: 0x7fc266bc9270; archive(resolved)='<IDEArchive: 0x7fc266218380>', distributionTask(resolved)='2', distributionDestination(resolved)='1', distributionMethod(resolved)='<IDEDistributionMethodMacAppStoreDistribution: 0x7fc269072eb0>', team(resolved)='<IDEProvisioningDisambiguatableBasicTeam: 0x7fc2690a0fe0; teamID='V8ETDGXR5B', teamName='Sihao Liu', teamType='Individual', username='18089541818@163.com', isFreeProvisioningTeam='0'>'>
+	Chain (12, self inclusive):
+	<IDEDistributionProcessingPipelineContext: 0x7fc266bc9270; archive = '<IDEArchive: 0x7fc266218380>', distributionMethod='<IDEDistributionMethodMacAppStoreDistribution: 0x7fc269072eb0>', team='<IDEProvisioningDisambiguatableBasicTeam: 0x7fc2690a0fe0; teamID='V8ETDGXR5B', teamName='Sihao Liu', teamType='Individual', username='18089541818@163.com', isFreeProvisioningTeam='0'>'>
+	<IDEDistributionProcessingPipelineContext: 0x7fc2680c53a0; archive = '<IDEArchive: 0x7fc266218380>', distributionMethod='<IDEDistributionMethodMacAppStoreDistribution: 0x7fc269072eb0>', team='<IDEProvisioningDisambiguatableBasicTeam: 0x7fc2690a0fe0; teamID='V8ETDGXR5B', teamName='Sihao Liu', teamType='Individual', username='18089541818@163.com', isFreeProvisioningTeam='0'>'>
+	<IDEDistributionContext: 0x7fc24a742620; archive = '<IDEArchive: 0x7fc266218380>', distributionMethod='<IDEDistributionMethodMacAppStoreDistribution: 0x7fc269072eb0>', team='<IDEProvisioningDisambiguatableBasicTeam: 0x7fc2690a0fe0; teamID='V8ETDGXR5B', teamName='Sihao Liu', teamType='Individual', username='18089541818@163.com', isFreeProvisioningTeam='0'>'>
+	<IDEDistributionContext: 0x7fc24c521080; archive = '<IDEArchive: 0x7fc266218380>', distributionMethod='<IDEDistributionMethodMacAppStoreDistribution: 0x7fc269072eb0>', team='<IDEProvisioningDisambiguatableBasicTeam: 0x7fc2690a0fe0; teamID='V8ETDGXR5B', teamName='Sihao Liu', teamType='Individual', username='18089541818@163.com', isFreeProvisioningTeam='0'>'>
+	<IDEDistributionContext: 0x7fc24ddb1bd0; archive = '<IDEArchive: 0x7fc266218380>', distributionMethod='<IDEDistributionMethodMacAppStoreDistribution: 0x7fc269072eb0>', team='<IDEProvisioningDisambiguatableBasicTeam: 0x7fc2690a0fe0; teamID='V8ETDGXR5B', teamName='Sihao Liu', teamType='Individual', username='18089541818@163.com', isFreeProvisioningTeam='0'>'>
+	<IDEDistributionContext: 0x7fc24a6c9e30; archive = '<IDEArchive: 0x7fc266218380>', distributionMethod='<IDEDistributionMethodMacAppStoreDistribution: 0x7fc269072eb0>', team='<IDEProvisioningDisambiguatableBasicTeam: 0x7fc2690a0fe0; teamID='V8ETDGXR5B', teamName='Sihao Liu', teamType='Individual', username='18089541818@163.com', isFreeProvisioningTeam='0'>'>
+	<IDEDistributionContext: 0x7fc268e97520; archive = '<IDEArchive: 0x7fc266218380>', distributionMethod='<IDEDistributionMethodMacAppStoreDistribution: 0x7fc269072eb0>', team='<IDEProvisioningDisambiguatableBasicTeam: 0x7fc2690a0fe0; teamID='V8ETDGXR5B', teamName='Sihao Liu', teamType='Individual', username='18089541818@163.com', isFreeProvisioningTeam='0'>'>
+	<IDEDistributionContext: 0x7fc24bfadaf0; archive = '<IDEArchive: 0x7fc266218380>', distributionMethod='<IDEDistributionMethodMacAppStoreDistribution: 0x7fc269072eb0>', team='<IDEProvisioningDisambiguatableBasicTeam: 0x7fc2690a0fe0; teamID='V8ETDGXR5B', teamName='Sihao Liu', teamType='Individual', username='18089541818@163.com', isFreeProvisioningTeam='0'>'>
+	<IDEDistributionContext: 0x7fc24c832da0; archive = '<IDEArchive: 0x7fc266218380>', distributionMethod='<IDEDistributionMethodMacAppStoreDistribution: 0x7fc269072eb0>', team='<IDEProvisioningDisambiguatableBasicTeam: 0x7fc2690a0fe0; teamID='V8ETDGXR5B', teamName='Sihao Liu', teamType='Individual', username='18089541818@163.com', isFreeProvisioningTeam='0'>'>
+	<IDEDistributionContext: 0x7fc2694f8ec0; archive = '<IDEArchive: 0x7fc266218380>', distributionMethod='<IDEDistributionMethodMacAppStoreDistribution: 0x7fc269072eb0>', team='(null)'>
+	<IDEDistributionContext: 0x7fc2690445e0; archive = '<IDEArchive: 0x7fc266218380>', distributionMethod='<IDEDistributionMethodMacAppStoreDistribution: 0x7fc269072eb0>', team='(null)'>
+	<IDEDistributionContext: 0x7fc268ecf530; archive = '<IDEArchive: 0x7fc266218380>', distributionMethod='(null)', team='(null)'>
+</IDEDistributionProcessingPipelineContext: 0x7fc266bc9270>
+2019-12-07 18:08:01 +0000  Processing step: IDEDistributionCreateDestRootStep
+2019-12-07 18:08:01 +0000  Processing step: IDEDistributionCopyItemStep
+2019-12-07 18:08:01 +0000  Running /usr/bin/ditto '-V' '/Users/land/Library/Developer/Xcode/Archives/2019-12-08/Energy_Charge 2019-12-8, 2.07 AM.xcarchive/Products/Applications/Energy_Charge.app' '/var/folders/bb/061_np9j4h59m9574ptl_zsh0000gn/T/XcodeDistPipeline.~~~PtJngc/Root/Applications/Energy_Charge.app'
+2019-12-07 18:08:01 +0000  >>> Copying /Users/land/Library/Developer/Xcode/Archives/2019-12-08/Energy_Charge 2019-12-8, 2.07 AM.xcarchive/Products/Applications/Energy_Charge.app 
+2019-12-07 18:08:01 +0000  copying file ./Contents/_CodeSignature/CodeResources ... 
+2019-12-07 18:08:01 +0000  7428 bytes for ./Contents/_CodeSignature/CodeResources
+2019-12-07 18:08:01 +0000  copying file ./Contents/MacOS/Energy_Charge ... 
+2019-12-07 18:08:01 +0000  62400 bytes for ./Contents/MacOS/Energy_Charge
+2019-12-07 18:08:01 +0000  copying file ./Contents/Resources/Base.lproj/Main.storyboardc/MainMenu.nib ... 
+2019-12-07 18:08:01 +0000  37317 bytes for ./Contents/Resources/Base.lproj/Main.storyboardc/MainMenu.nib
+2019-12-07 18:08:01 +0000  copying file ./Contents/Resources/Base.lproj/Main.storyboardc/XfG-lQ-9wD-view-m2S-Jp-Qdl.nib ... 
+2019-12-07 18:08:01 +0000  1223 bytes for ./Contents/Resources/Base.lproj/Main.storyboardc/XfG-lQ-9wD-view-m2S-Jp-Qdl.nib
+2019-12-07 18:08:01 +0000  copying file ./Contents/Resources/Base.lproj/Main.storyboardc/NSWindowController-B8D-0N-5wS.nib ... 
+2019-12-07 18:08:01 +0000  3590 bytes for ./Contents/Resources/Base.lproj/Main.storyboardc/NSWindowController-B8D-0N-5wS.nib
+2019-12-07 18:08:01 +0000  copying file ./Contents/Resources/Base.lproj/Main.storyboardc/Info.plist ... 
+2019-12-07 18:08:01 +0000  445 bytes for ./Contents/Resources/Base.lproj/Main.storyboardc/Info.plist
+2019-12-07 18:08:01 +0000  copying symlink ./Contents/Frameworks/SwiftyJSON.framework/SwiftyJSON ... 
+2019-12-07 18:08:01 +0000  linked ./Contents/Frameworks/SwiftyJSON.framework/SwiftyJSON
+copying symlink ./Contents/Frameworks/SwiftyJSON.framework/Resources ... 
+2019-12-07 18:08:01 +0000  linked ./Contents/Frameworks/SwiftyJSON.framework/Resources
+2019-12-07 18:08:01 +0000  copying file ./Contents/Frameworks/SwiftyJSON.framework/Versions/A/_CodeSignature/CodeResources ... 
+2019-12-07 18:08:01 +0000  2514 bytes for ./Contents/Frameworks/SwiftyJSON.framework/Versions/A/_CodeSignature/CodeResources
+2019-12-07 18:08:01 +0000  copying file ./Contents/Frameworks/SwiftyJSON.framework/Versions/A/SwiftyJSON ... 
+2019-12-07 18:08:01 +0000  364304 bytes for ./Contents/Frameworks/SwiftyJSON.framework/Versions/A/SwiftyJSON
+2019-12-07 18:08:01 +0000  copying file ./Contents/Frameworks/SwiftyJSON.framework/Versions/A/Resources/Info.plist ... 
+2019-12-07 18:08:01 +0000  1291 bytes for ./Contents/Frameworks/SwiftyJSON.framework/Versions/A/Resources/Info.plist
+2019-12-07 18:08:01 +0000  copying symlink ./Contents/Frameworks/SwiftyJSON.framework/Versions/Current ... 
+2019-12-07 18:08:01 +0000  linked ./Contents/Frameworks/SwiftyJSON.framework/Versions/Current
+2019-12-07 18:08:01 +0000  copying file ./Contents/Frameworks/libswiftObjectiveC.dylib ... 
+2019-12-07 18:08:01 +0000  62272 bytes for ./Contents/Frameworks/libswiftObjectiveC.dylib
+2019-12-07 18:08:01 +0000  copying file ./Contents/Frameworks/libswiftCore.dylib ... 
+2019-12-07 18:08:01 +0000  6456320 bytes for ./Contents/Frameworks/libswiftCore.dylib
+2019-12-07 18:08:01 +0000  copying file ./Contents/Frameworks/libswiftCoreGraphics.dylib ... 
+190560 bytes for ./Contents/Frameworks/libswiftCoreGraphics.dylib
+copying file ./Contents/Frameworks/libswiftDispatch.dylib ... 
+328272 bytes for ./Contents/Frameworks/libswiftDispatch.dylib
+copying file ./Contents/Frameworks/libswiftCoreFoundation.dylib ... 
+42128 bytes for ./Contents/Frameworks/libswiftCoreFoundation.dylib
+copying file ./Contents/Frameworks/libswiftDarwin.dylib ... 
+99088 bytes for ./Contents/Frameworks/libswiftDarwin.dylib
+copying file ./Contents/Frameworks/libswiftIOKit.dylib ... 
+45664 bytes for ./Contents/Frameworks/libswiftIOKit.dylib
+copying symlink ./Contents/Frameworks/Alamofire.framework/Alamofire ... 
+2019-12-07 18:08:01 +0000  linked ./Contents/Frameworks/Alamofire.framework/Alamofire
+copying symlink ./Contents/Frameworks/Alamofire.framework/Resources ... 
+linked ./Contents/Frameworks/Alamofire.framework/Resources
+2019-12-07 18:08:01 +0000  copying file ./Contents/Frameworks/Alamofire.framework/Versions/A/_CodeSignature/CodeResources ... 
+2019-12-07 18:08:01 +0000  2514 bytes for ./Contents/Frameworks/Alamofire.framework/Versions/A/_CodeSignature/CodeResources
+2019-12-07 18:08:01 +0000  copying file ./Contents/Frameworks/Alamofire.framework/Versions/A/Alamofire ... 
+2019-12-07 18:08:01 +0000  1443552 bytes for ./Contents/Frameworks/Alamofire.framework/Versions/A/Alamofire
+2019-12-07 18:08:01 +0000  copying file ./Contents/Frameworks/Alamofire.framework/Versions/A/Resources/Info.plist ... 
+1289 bytes for ./Contents/Frameworks/Alamofire.framework/Versions/A/Resources/Info.plist
+2019-12-07 18:08:01 +0000  copying symlink ./Contents/Frameworks/Alamofire.framework/Versions/Current ... 
+2019-12-07 18:08:01 +0000  linked ./Contents/Frameworks/Alamofire.framework/Versions/Current
+2019-12-07 18:08:01 +0000  copying file ./Contents/Frameworks/libswiftFoundation.dylib ... 
+2019-12-07 18:08:01 +0000  3163408 bytes for ./Contents/Frameworks/libswiftFoundation.dylib
+2019-12-07 18:08:01 +0000  copying file ./Contents/Info.plist ... 
+1609 bytes for ./Contents/Info.plist
+copying file ./Contents/PkgInfo ... 
+8 bytes for ./Contents/PkgInfo
+2019-12-07 18:08:01 +0000  /usr/bin/ditto exited with 0
+2019-12-07 18:08:01 +0000  Processing step: IDEDistributionEmbedProfileStep
+2019-12-07 18:08:01 +0000  Skipping profile for item: <IDEDistributionItem: 0x7fc24c830ef0; bundleID='org.cocoapods.Alamofire', path='<DVTFilePath:0x7fc269050aa0:'/Users/land/Library/Developer/Xcode/Archives/2019-12-08/Energy_Charge 2019-12-8, 2.07 AM.xcarchive/Products/Applications/Energy_Charge.app/Contents/Frameworks/Alamofire.framework/Versions/A'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7fc268c284d0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7fc24c558220; name='Apple Development: Sihao Liu (8E7Q654P2A)', hash='843F722956A04CCBEF01B1ADEB9301935DD41D4C', serialNumber='377B20C0A59395E6', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2019-09-28 17:28:04 +0000''>', entitlements='(null)', teamID='V8ETDGXR5B', identifier='org.cocoapods.Alamofire', executablePath='<DVTFilePath:0x7fc24a6ce090:'/Users/land/Library/Developer/Xcode/Archives/2019-12-08/Energy_Charge 2019-12-8, 2.07 AM.xcarchive/Products/Applications/Energy_Charge.app/Contents/Frameworks/Alamofire.framework/Versions/A/Alamofire'>', hardenedRuntime='0'>'>
+2019-12-07 18:08:01 +0000  Skipping profile for item: <IDEDistributionItem: 0x7fc250841d80; bundleID='org.cocoapods.SwiftyJSON', path='<DVTFilePath:0x7fc2680e3b20:'/Users/land/Library/Developer/Xcode/Archives/2019-12-08/Energy_Charge 2019-12-8, 2.07 AM.xcarchive/Products/Applications/Energy_Charge.app/Contents/Frameworks/SwiftyJSON.framework/Versions/A'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7fc269050a60; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7fc24c558220; name='Apple Development: Sihao Liu (8E7Q654P2A)', hash='843F722956A04CCBEF01B1ADEB9301935DD41D4C', serialNumber='377B20C0A59395E6', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2019-09-28 17:28:04 +0000''>', entitlements='(null)', teamID='V8ETDGXR5B', identifier='org.cocoapods.SwiftyJSON', executablePath='<DVTFilePath:0x7fc267a3c960:'/Users/land/Library/Developer/Xcode/Archives/2019-12-08/Energy_Charge 2019-12-8, 2.07 AM.xcarchive/Products/Applications/Energy_Charge.app/Contents/Frameworks/SwiftyJSON.framework/Versions/A/SwiftyJSON'>', hardenedRuntime='0'>'>
+2019-12-07 18:08:01 +0000  Skipping profile for item: <IDEDistributionItem: 0x7fc24a727010; bundleID='com.apple.dt.runtime.swiftCore', path='<DVTFilePath:0x7fc2680daee0:'/Users/land/Library/Developer/Xcode/Archives/2019-12-08/Energy_Charge 2019-12-8, 2.07 AM.xcarchive/Products/Applications/Energy_Charge.app/Contents/Frameworks/libswiftCore.dylib'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7fc268ecc650; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7fc25092f4b0; name='Apple Development: Sihao Liu (8E7Q654P2A)', hash='843F722956A04CCBEF01B1ADEB9301935DD41D4C', serialNumber='377B20C0A59395E6', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2019-09-28 17:28:04 +0000''>', entitlements='(null)', teamID='V8ETDGXR5B', identifier='com.apple.dt.runtime.swiftCore', executablePath='<DVTFilePath:0x7fc2680daee0:'/Users/land/Library/Developer/Xcode/Archives/2019-12-08/Energy_Charge 2019-12-8, 2.07 AM.xcarchive/Products/Applications/Energy_Charge.app/Contents/Frameworks/libswiftCore.dylib'>', hardenedRuntime='0'>'>
+2019-12-07 18:08:01 +0000  Skipping profile for item: <IDEDistributionItem: 0x7fc24a70a9b0; bundleID='com.apple.dt.runtime.swiftCoreFoundation', path='<DVTFilePath:0x7fc24a7141a0:'/Users/land/Library/Developer/Xcode/Archives/2019-12-08/Energy_Charge 2019-12-8, 2.07 AM.xcarchive/Products/Applications/Energy_Charge.app/Contents/Frameworks/libswiftCoreFoundation.dylib'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7fc24c543980; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7fc25092f4b0; name='Apple Development: Sihao Liu (8E7Q654P2A)', hash='843F722956A04CCBEF01B1ADEB9301935DD41D4C', serialNumber='377B20C0A59395E6', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2019-09-28 17:28:04 +0000''>', entitlements='(null)', teamID='V8ETDGXR5B', identifier='com.apple.dt.runtime.swiftCoreFoundation', executablePath='<DVTFilePath:0x7fc24a7141a0:'/Users/land/Library/Developer/Xcode/Archives/2019-12-08/Energy_Charge 2019-12-8, 2.07 AM.xcarchive/Products/Applications/Energy_Charge.app/Contents/Frameworks/libswiftCoreFoundation.dylib'>', hardenedRuntime='0'>'>
+2019-12-07 18:08:01 +0000  Skipping profile for item: <IDEDistributionItem: 0x7fc268cf0450; bundleID='com.apple.dt.runtime.swiftCoreGraphics', path='<DVTFilePath:0x7fc268c4e5a0:'/Users/land/Library/Developer/Xcode/Archives/2019-12-08/Energy_Charge 2019-12-8, 2.07 AM.xcarchive/Products/Applications/Energy_Charge.app/Contents/Frameworks/libswiftCoreGraphics.dylib'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7fc268e73ad0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7fc24a6ec740; name='Apple Development: Sihao Liu (8E7Q654P2A)', hash='843F722956A04CCBEF01B1ADEB9301935DD41D4C', serialNumber='377B20C0A59395E6', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2019-09-28 17:28:04 +0000''>', entitlements='(null)', teamID='V8ETDGXR5B', identifier='com.apple.dt.runtime.swiftCoreGraphics', executablePath='<DVTFilePath:0x7fc268c4e5a0:'/Users/land/Library/Developer/Xcode/Archives/2019-12-08/Energy_Charge 2019-12-8, 2.07 AM.xcarchive/Products/Applications/Energy_Charge.app/Contents/Frameworks/libswiftCoreGraphics.dylib'>', hardenedRuntime='0'>'>
+2019-12-07 18:08:01 +0000  Skipping profile for item: <IDEDistributionItem: 0x7fc24a6bcb60; bundleID='com.apple.dt.runtime.swiftDarwin', path='<DVTFilePath:0x7fc268ebdea0:'/Users/land/Library/Developer/Xcode/Archives/2019-12-08/Energy_Charge 2019-12-8, 2.07 AM.xcarchive/Products/Applications/Energy_Charge.app/Contents/Frameworks/libswiftDarwin.dylib'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7fc26906c7f0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7fc24a6ec740; name='Apple Development: Sihao Liu (8E7Q654P2A)', hash='843F722956A04CCBEF01B1ADEB9301935DD41D4C', serialNumber='377B20C0A59395E6', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2019-09-28 17:28:04 +0000''>', entitlements='(null)', teamID='V8ETDGXR5B', identifier='com.apple.dt.runtime.swiftDarwin', executablePath='<DVTFilePath:0x7fc268ebdea0:'/Users/land/Library/Developer/Xcode/Archives/2019-12-08/Energy_Charge 2019-12-8, 2.07 AM.xcarchive/Products/Applications/Energy_Charge.app/Contents/Frameworks/libswiftDarwin.dylib'>', hardenedRuntime='0'>'>
+2019-12-07 18:08:01 +0000  Skipping profile for item: <IDEDistributionItem: 0x7fc26807f730; bundleID='com.apple.dt.runtime.swiftDispatch', path='<DVTFilePath:0x7fc24a6d2ae0:'/Users/land/Library/Developer/Xcode/Archives/2019-12-08/Energy_Charge 2019-12-8, 2.07 AM.xcarchive/Products/Applications/Energy_Charge.app/Contents/Frameworks/libswiftDispatch.dylib'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7fc24a6c9fb0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7fc24a6ec740; name='Apple Development: Sihao Liu (8E7Q654P2A)', hash='843F722956A04CCBEF01B1ADEB9301935DD41D4C', serialNumber='377B20C0A59395E6', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2019-09-28 17:28:04 +0000''>', entitlements='(null)', teamID='V8ETDGXR5B', identifier='com.apple.dt.runtime.swiftDispatch', executablePath='<DVTFilePath:0x7fc24a6d2ae0:'/Users/land/Library/Developer/Xcode/Archives/2019-12-08/Energy_Charge 2019-12-8, 2.07 AM.xcarchive/Products/Applications/Energy_Charge.app/Contents/Frameworks/libswiftDispatch.dylib'>', hardenedRuntime='0'>'>
+2019-12-07 18:08:01 +0000  Skipping profile for item: <IDEDistributionItem: 0x7fc268e39f40; bundleID='com.apple.dt.runtime.swiftFoundation', path='<DVTFilePath:0x7fc24df3ac90:'/Users/land/Library/Developer/Xcode/Archives/2019-12-08/Energy_Charge 2019-12-8, 2.07 AM.xcarchive/Products/Applications/Energy_Charge.app/Contents/Frameworks/libswiftFoundation.dylib'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7fc24a70cdc0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7fc267a34b90; name='Apple Development: Sihao Liu (8E7Q654P2A)', hash='843F722956A04CCBEF01B1ADEB9301935DD41D4C', serialNumber='377B20C0A59395E6', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2019-09-28 17:28:04 +0000''>', entitlements='(null)', teamID='V8ETDGXR5B', identifier='com.apple.dt.runtime.swiftFoundation', executablePath='<DVTFilePath:0x7fc24df3ac90:'/Users/land/Library/Developer/Xcode/Archives/2019-12-08/Energy_Charge 2019-12-8, 2.07 AM.xcarchive/Products/Applications/Energy_Charge.app/Contents/Frameworks/libswiftFoundation.dylib'>', hardenedRuntime='0'>'>
+2019-12-07 18:08:01 +0000  Skipping profile for item: <IDEDistributionItem: 0x7fc24a70b300; bundleID='com.apple.dt.runtime.swiftIOKit', path='<DVTFilePath:0x7fc268ebed30:'/Users/land/Library/Developer/Xcode/Archives/2019-12-08/Energy_Charge 2019-12-8, 2.07 AM.xcarchive/Products/Applications/Energy_Charge.app/Contents/Frameworks/libswiftIOKit.dylib'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7fc267a2e6b0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7fc269ac5e50; name='Apple Development: Sihao Liu (8E7Q654P2A)', hash='843F722956A04CCBEF01B1ADEB9301935DD41D4C', serialNumber='377B20C0A59395E6', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2019-09-28 17:28:04 +0000''>', entitlements='(null)', teamID='V8ETDGXR5B', identifier='com.apple.dt.runtime.swiftIOKit', executablePath='<DVTFilePath:0x7fc268ebed30:'/Users/land/Library/Developer/Xcode/Archives/2019-12-08/Energy_Charge 2019-12-8, 2.07 AM.xcarchive/Products/Applications/Energy_Charge.app/Contents/Frameworks/libswiftIOKit.dylib'>', hardenedRuntime='0'>'>
+2019-12-07 18:08:01 +0000  Skipping profile for item: <IDEDistributionItem: 0x7fc24a65ced0; bundleID='com.apple.dt.runtime.swiftObjectiveC', path='<DVTFilePath:0x7fc2680174c0:'/Users/land/Library/Developer/Xcode/Archives/2019-12-08/Energy_Charge 2019-12-8, 2.07 AM.xcarchive/Products/Applications/Energy_Charge.app/Contents/Frameworks/libswiftObjectiveC.dylib'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7fc24a6f0220; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7fc24c558220; name='Apple Development: Sihao Liu (8E7Q654P2A)', hash='843F722956A04CCBEF01B1ADEB9301935DD41D4C', serialNumber='377B20C0A59395E6', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2019-09-28 17:28:04 +0000''>', entitlements='(null)', teamID='V8ETDGXR5B', identifier='com.apple.dt.runtime.swiftObjectiveC', executablePath='<DVTFilePath:0x7fc2680174c0:'/Users/land/Library/Developer/Xcode/Archives/2019-12-08/Energy_Charge 2019-12-8, 2.07 AM.xcarchive/Products/Applications/Energy_Charge.app/Contents/Frameworks/libswiftObjectiveC.dylib'>', hardenedRuntime='0'>'>
+2019-12-07 18:08:01 +0000  Skipping profile for item: <IDEDistributionItem: 0x7fc24a70f0f0; bundleID='com.project.Energy-Charge.Energy-Charge', path='<DVTFilePath:0x7fc268034630:'/Users/land/Library/Developer/Xcode/Archives/2019-12-08/Energy_Charge 2019-12-8, 2.07 AM.xcarchive/Products/Applications/Energy_Charge.app'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7fc24a6bc660; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7fc268c638b0; name='Apple Development: Sihao Liu (8E7Q654P2A)', hash='843F722956A04CCBEF01B1ADEB9301935DD41D4C', serialNumber='377B20C0A59395E6', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2019-09-28 17:28:04 +0000''>', entitlements='{
+    "com.apple.security.app-sandbox" = 1;
+    "com.apple.security.files.user-selected.read-only" = 1;
+    "com.apple.security.network.client" = 1;
+    "com.apple.security.network.server" = 1;
+}', teamID='V8ETDGXR5B', identifier='com.project.Energy-Charge.Energy-Charge', executablePath='<DVTFilePath:0x7fc25099bbd0:'/Users/land/Library/Developer/Xcode/Archives/2019-12-08/Energy_Charge 2019-12-8, 2.07 AM.xcarchive/Products/Applications/Energy_Charge.app/Contents/MacOS/Energy_Charge'>', hardenedRuntime='1'>'>
+2019-12-07 18:08:01 +0000  Processing step: IDEDistributionItemRemovalStep
+2019-12-07 18:08:01 +0000  Processing step: IDEDistributionAppThinningPlistStep
+2019-12-07 18:08:01 +0000  Processing step: IDEDistributionCompileBitcodeStep
+2019-12-07 18:08:01 +0000  Skipping step: IDEDistributionCompileBitcodeStep because it said so
+2019-12-07 18:08:01 +0000  Processing step: IDEDistributionCodeSlimmingStep
+2019-12-07 18:08:01 +0000  Processing step: IDEDistributionCopyBCSymbolMapsStep
+2019-12-07 18:08:01 +0000  Processing step: IDEDistributionSymbolsStep
+2019-12-07 18:08:01 +0000  Processing symbols for A
+2019-12-07 18:08:01 +0000  Running /usr/bin/rsync '-8aPhhE' '/var/folders/bb/061_np9j4h59m9574ptl_zsh0000gn/T/XcodeDistPipeline.~~~PtJngc/Root/Applications/Energy_Charge.app/Contents/Frameworks/Alamofire.framework/Versions/A' '--link-dest' '/var/folders/bb/061_np9j4h59m9574ptl_zsh0000gn/T/XcodeDistPipeline.~~~PtJngc/Root/Applications/Energy_Charge.app/Contents/Frameworks/Alamofire.framework/Versions' '/var/folders/bb/061_np9j4h59m9574ptl_zsh0000gn/T/XcodeDistPipeline.~~~PtJngc'
+2019-12-07 18:08:01 +0000  building file list ... 
+2019-12-07 18:08:01 +0000   0 files...2019-12-07 18:08:01 +0000  6 files to consider
+2019-12-07 18:08:01 +0000  A/
+2019-12-07 18:08:01 +0000  A/Resources/
+2019-12-07 18:08:01 +0000  A/_CodeSignature/
+2019-12-07 18:08:01 +0000  
+2019-12-07 18:08:01 +0000  sent 235 bytes  received 38 bytes  546.00 bytes/sec
+total size is 1.38M  speedup is 5301.67
+2019-12-07 18:08:01 +0000  /usr/bin/rsync exited with 0
+2019-12-07 18:08:01 +0000  Running /usr/bin/rsync '-8aPhhE' '/Users/land/Library/Developer/Xcode/Archives/2019-12-08/Energy_Charge 2019-12-8, 2.07 AM.xcarchive/dSYMs/' '--link-dest' '/Users/land/Library/Developer/Xcode/Archives/2019-12-08/Energy_Charge 2019-12-8, 2.07 AM.xcarchive/dSYMs/' '/var/folders/bb/061_np9j4h59m9574ptl_zsh0000gn/T/XcodeDistPipeline.~~~PtJngc'
+2019-12-07 18:08:01 +0000  building file list ... 
+2019-12-07 18:08:01 +0000   0 files...2019-12-07 18:08:01 +0000  19 files to consider
+2019-12-07 18:08:01 +0000  ./
+2019-12-07 18:08:01 +0000  Alamofire.framework.dSYM/
+2019-12-07 18:08:01 +0000  Alamofire.framework.dSYM/Contents/
+Alamofire.framework.dSYM/Contents/Resources/
+Alamofire.framework.dSYM/Contents/Resources/DWARF/
+Energy_Charge.app.dSYM/
+Energy_Charge.app.dSYM/Contents/
+Energy_Charge.app.dSYM/Contents/Resources/
+Energy_Charge.app.dSYM/Contents/Resources/DWARF/
+SwiftyJSON.framework.dSYM/
+SwiftyJSON.framework.dSYM/Contents/
+SwiftyJSON.framework.dSYM/Contents/Resources/
+2019-12-07 18:08:01 +0000  SwiftyJSON.framework.dSYM/Contents/Resources/DWARF/
+2019-12-07 18:08:01 +0000  
+sent 669 bytes  received 98 bytes  1.50K bytes/sec
+total size is 9.24M  speedup is 12638.80
+2019-12-07 18:08:01 +0000  /usr/bin/rsync exited with 0
+2019-12-07 18:08:01 +0000  Running /Applications/Xcode.app/Contents/Developer/usr/bin/symbols '-noTextInSOD' '-noDaemon' '-arch' 'all' '-symbolsPackageDir' '/var/folders/bb/061_np9j4h59m9574ptl_zsh0000gn/T/XcodeDistPipeline.~~~PtJngc/Symbols' '/var/folders/bb/061_np9j4h59m9574ptl_zsh0000gn/T/XcodeDistPipeline.~~~PtJngc/Alamofire.framework.dSYM/Contents/Resources/Dwarf/Alamofire'
+2019-12-07 18:08:01 +0000  /var/folders/bb/061_np9j4h59m9574ptl_zsh0000gn/T/XcodeDistPipeline.~~~PtJngc/Alamofire.framework.dSYM/Contents/Resources/Dwarf/Alamofire [x86_64, 0.058378 seconds]:
+2019-12-07 18:08:01 +0000  /Applications/Xcode.app/Contents/Developer/usr/bin/symbols exited with 0
+2019-12-07 18:08:01 +0000  Processing symbols for A
+2019-12-07 18:08:01 +0000  Running /usr/bin/rsync '-8aPhhE' '/var/folders/bb/061_np9j4h59m9574ptl_zsh0000gn/T/XcodeDistPipeline.~~~PtJngc/Root/Applications/Energy_Charge.app/Contents/Frameworks/SwiftyJSON.framework/Versions/A' '--link-dest' '/var/folders/bb/061_np9j4h59m9574ptl_zsh0000gn/T/XcodeDistPipeline.~~~PtJngc/Root/Applications/Energy_Charge.app/Contents/Frameworks/SwiftyJSON.framework/Versions' '/var/folders/bb/061_np9j4h59m9574ptl_zsh0000gn/T/XcodeDistPipeline.~~~PtJngc'
+2019-12-07 18:08:01 +0000  building file list ... 
+2019-12-07 18:08:01 +0000   0 files...2019-12-07 18:08:01 +0000  6 files to consider
+2019-12-07 18:08:01 +0000  A/
+2019-12-07 18:08:01 +0000  A/Resources/
+2019-12-07 18:08:01 +0000  A/Resources/Info.plist
+2019-12-07 18:08:01 +0000         1.26K 100%    0.00kB/s    0:00:002019-12-07 18:08:01 +0000         1.26K 100%    0.00kB/s    0:00:00 (xfer#1, to-check=2/6)
+A/_CodeSignature/
+2019-12-07 18:08:01 +0000  
+sent 1.54K bytes  received 66 bytes  3.21K bytes/sec
+total size is 359.48K  speedup is 223.77
+2019-12-07 18:08:01 +0000  /usr/bin/rsync exited with 0
+2019-12-07 18:08:01 +0000  Running /usr/bin/rsync '-8aPhhE' '/Users/land/Library/Developer/Xcode/Archives/2019-12-08/Energy_Charge 2019-12-8, 2.07 AM.xcarchive/dSYMs/' '--link-dest' '/Users/land/Library/Developer/Xcode/Archives/2019-12-08/Energy_Charge 2019-12-8, 2.07 AM.xcarchive/dSYMs/' '/var/folders/bb/061_np9j4h59m9574ptl_zsh0000gn/T/XcodeDistPipeline.~~~PtJngc'
+2019-12-07 18:08:01 +0000  building file list ... 
+2019-12-07 18:08:01 +0000   0 files...2019-12-07 18:08:01 +0000  19 files to consider
+2019-12-07 18:08:01 +0000  ./
+2019-12-07 18:08:01 +0000  Alamofire.framework.dSYM/
+Alamofire.framework.dSYM/Contents/
+2019-12-07 18:08:01 +0000  Alamofire.framework.dSYM/Contents/Resources/
+Alamofire.framework.dSYM/Contents/Resources/DWARF/
+Energy_Charge.app.dSYM/
+Energy_Charge.app.dSYM/Contents/
+2019-12-07 18:08:01 +0000  Energy_Charge.app.dSYM/Contents/Resources/
+Energy_Charge.app.dSYM/Contents/Resources/DWARF/
+SwiftyJSON.framework.dSYM/
+SwiftyJSON.framework.dSYM/Contents/
+SwiftyJSON.framework.dSYM/Contents/Resources/
+SwiftyJSON.framework.dSYM/Contents/Resources/DWARF/
+2019-12-07 18:08:01 +0000  
+sent 705 bytes  received 134 bytes  1.64K bytes/sec
+total size is 9.24M  speedup is 11554.18
+2019-12-07 18:08:01 +0000  /usr/bin/rsync exited with 0
+2019-12-07 18:08:01 +0000  Running /Applications/Xcode.app/Contents/Developer/usr/bin/symbols '-noTextInSOD' '-noDaemon' '-arch' 'all' '-symbolsPackageDir' '/var/folders/bb/061_np9j4h59m9574ptl_zsh0000gn/T/XcodeDistPipeline.~~~PtJngc/Symbols' '/var/folders/bb/061_np9j4h59m9574ptl_zsh0000gn/T/XcodeDistPipeline.~~~PtJngc/Alamofire.framework.dSYM/Contents/Resources/Dwarf/Alamofire'
+2019-12-07 18:08:01 +0000  /var/folders/bb/061_np9j4h59m9574ptl_zsh0000gn/T/XcodeDistPipeline.~~~PtJngc/Alamofire.framework.dSYM/Contents/Resources/Dwarf/Alamofire [x86_64, 0.034546 seconds]:
+2019-12-07 18:08:01 +0000  /Applications/Xcode.app/Contents/Developer/usr/bin/symbols exited with 0
+2019-12-07 18:08:01 +0000  Excluding symbols for libswiftCore.dylib
+2019-12-07 18:08:01 +0000  Excluding symbols for libswiftCoreFoundation.dylib
+2019-12-07 18:08:01 +0000  Excluding symbols for libswiftCoreGraphics.dylib
+2019-12-07 18:08:01 +0000  Excluding symbols for libswiftDarwin.dylib
+2019-12-07 18:08:01 +0000  Excluding symbols for libswiftDispatch.dylib
+2019-12-07 18:08:01 +0000  Excluding symbols for libswiftFoundation.dylib
+2019-12-07 18:08:01 +0000  Excluding symbols for libswiftIOKit.dylib
+2019-12-07 18:08:01 +0000  Excluding symbols for libswiftObjectiveC.dylib
+2019-12-07 18:08:01 +0000  Processing symbols for Energy_Charge.app
+2019-12-07 18:08:01 +0000  Running /usr/bin/rsync '-8aPhhE' '/var/folders/bb/061_np9j4h59m9574ptl_zsh0000gn/T/XcodeDistPipeline.~~~PtJngc/Root/Applications/Energy_Charge.app' '--link-dest' '/var/folders/bb/061_np9j4h59m9574ptl_zsh0000gn/T/XcodeDistPipeline.~~~PtJngc/Root/Applications' '/var/folders/bb/061_np9j4h59m9574ptl_zsh0000gn/T/XcodeDistPipeline.~~~PtJngc'
+2019-12-07 18:08:01 +0000  building file list ... 
+2019-12-07 18:08:01 +0000   0 files...2019-12-07 18:08:01 +0000  46 files to consider
+2019-12-07 18:08:01 +0000  Energy_Charge.app/
+2019-12-07 18:08:01 +0000  Energy_Charge.app/Contents/
+Energy_Charge.app/Contents/Frameworks/
+Energy_Charge.app/Contents/Frameworks/Alamofire.framework/
+Energy_Charge.app/Contents/Frameworks/Alamofire.framework/Versions/
+2019-12-07 18:08:01 +0000  Energy_Charge.app/Contents/Frameworks/Alamofire.framework/Versions/A/
+Energy_Charge.app/Contents/Frameworks/Alamofire.framework/Versions/A/Resources/
+Energy_Charge.app/Contents/Frameworks/Alamofire.framework/Versions/A/_CodeSignature/
+Energy_Charge.app/Contents/Frameworks/SwiftyJSON.framework/
+Energy_Charge.app/Contents/Frameworks/SwiftyJSON.framework/Versions/
+Energy_Charge.app/Contents/Frameworks/SwiftyJSON.framework/Versions/A/
+Energy_Charge.app/Contents/Frameworks/SwiftyJSON.framework/Versions/A/Resources/
+Energy_Charge.app/Contents/Frameworks/SwiftyJSON.framework/Versions/A/_CodeSignature/
+Energy_Charge.app/Contents/MacOS/
+Energy_Charge.app/Contents/Resources/
+Energy_Charge.app/Contents/Resources/Base.lproj/
+Energy_Charge.app/Contents/Resources/Base.lproj/Main.storyboardc/
+Energy_Charge.app/Contents/_CodeSignature/
+2019-12-07 18:08:01 +0000  
+sent 1.53K bytes  received 128 bytes  3.31K bytes/sec
+total size is 11.75M  speedup is 7271.14
+2019-12-07 18:08:01 +0000  /usr/bin/rsync exited with 0
+2019-12-07 18:08:01 +0000  Running /usr/bin/rsync '-8aPhhE' '/Users/land/Library/Developer/Xcode/Archives/2019-12-08/Energy_Charge 2019-12-8, 2.07 AM.xcarchive/dSYMs/' '--link-dest' '/Users/land/Library/Developer/Xcode/Archives/2019-12-08/Energy_Charge 2019-12-8, 2.07 AM.xcarchive/dSYMs/' '/var/folders/bb/061_np9j4h59m9574ptl_zsh0000gn/T/XcodeDistPipeline.~~~PtJngc'
+2019-12-07 18:08:01 +0000  building file list ... 
+2019-12-07 18:08:01 +0000   0 files...2019-12-07 18:08:01 +0000  19 files to consider
+2019-12-07 18:08:01 +0000  ./
+2019-12-07 18:08:01 +0000  Alamofire.framework.dSYM/
+2019-12-07 18:08:01 +0000  Alamofire.framework.dSYM/Contents/
+Alamofire.framework.dSYM/Contents/Resources/
+Alamofire.framework.dSYM/Contents/Resources/DWARF/
+Energy_Charge.app.dSYM/
+2019-12-07 18:08:01 +0000  Energy_Charge.app.dSYM/Contents/
+Energy_Charge.app.dSYM/Contents/Resources/
+Energy_Charge.app.dSYM/Contents/Resources/DWARF/
+SwiftyJSON.framework.dSYM/
+2019-12-07 18:08:01 +0000  SwiftyJSON.framework.dSYM/Contents/
+SwiftyJSON.framework.dSYM/Contents/Resources/
+SwiftyJSON.framework.dSYM/Contents/Resources/DWARF/
+2019-12-07 18:08:01 +0000  
+sent 705 bytes  received 134 bytes  1.64K bytes/sec
+total size is 9.24M  speedup is 11554.18
+2019-12-07 18:08:01 +0000  /usr/bin/rsync exited with 0
+2019-12-07 18:08:01 +0000  Running /Applications/Xcode.app/Contents/Developer/usr/bin/symbols '-noTextInSOD' '-noDaemon' '-arch' 'all' '-symbolsPackageDir' '/var/folders/bb/061_np9j4h59m9574ptl_zsh0000gn/T/XcodeDistPipeline.~~~PtJngc/Symbols' '/var/folders/bb/061_np9j4h59m9574ptl_zsh0000gn/T/XcodeDistPipeline.~~~PtJngc/Energy_Charge.app.dSYM/Contents/Resources/Dwarf/Energy_Charge'
+2019-12-07 18:08:01 +0000  /var/folders/bb/061_np9j4h59m9574ptl_zsh0000gn/T/XcodeDistPipeline.~~~PtJngc/Energy_Charge.app.dSYM/Contents/Resources/Dwarf/Energy_Charge [x86_64, 0.010172 seconds]:
+2019-12-07 18:08:01 +0000  /Applications/Xcode.app/Contents/Developer/usr/bin/symbols exited with 0
+2019-12-07 18:08:01 +0000  Processing step: IDEDistributionCopyAppleProvidedContentStep
+2019-12-07 18:08:01 +0000  Processing step: IDEDistributionAppThinningStep
+2019-12-07 18:08:01 +0000  Skipping step: IDEDistributionAppThinningStep because it said so
+2019-12-07 18:08:01 +0000  Processing step: IDEDistributionArchThinningStep
+2019-12-07 18:08:01 +0000  Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/bb/061_np9j4h59m9574ptl_zsh0000gn/T/XcodeDistPipeline.~~~PtJngc/Root/Applications/Energy_Charge.app/Contents/Frameworks/Alamofire.framework/Versions/A/Alamofire' '-verify_arch' 'arm64e'
+2019-12-07 18:08:01 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 1
+2019-12-07 18:08:01 +0000  Skipping architecture thinning for item "Alamofire" because arch "arm64e" wasn't found
+2019-12-07 18:08:01 +0000  Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/bb/061_np9j4h59m9574ptl_zsh0000gn/T/XcodeDistPipeline.~~~PtJngc/Root/Applications/Energy_Charge.app/Contents/Frameworks/SwiftyJSON.framework/Versions/A/SwiftyJSON' '-verify_arch' 'arm64e'
+2019-12-07 18:08:01 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 1
+2019-12-07 18:08:01 +0000  Skipping architecture thinning for item "SwiftyJSON" because arch "arm64e" wasn't found
+2019-12-07 18:08:01 +0000  Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/bb/061_np9j4h59m9574ptl_zsh0000gn/T/XcodeDistPipeline.~~~PtJngc/Root/Applications/Energy_Charge.app/Contents/Frameworks/libswiftCore.dylib' '-verify_arch' 'arm64e'
+2019-12-07 18:08:01 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 1
+2019-12-07 18:08:01 +0000  Skipping architecture thinning for item "libswiftCore.dylib" because arch "arm64e" wasn't found
+2019-12-07 18:08:01 +0000  Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/bb/061_np9j4h59m9574ptl_zsh0000gn/T/XcodeDistPipeline.~~~PtJngc/Root/Applications/Energy_Charge.app/Contents/Frameworks/libswiftCoreFoundation.dylib' '-verify_arch' 'arm64e'
+2019-12-07 18:08:01 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 1
+2019-12-07 18:08:01 +0000  Skipping architecture thinning for item "libswiftCoreFoundation.dylib" because arch "arm64e" wasn't found
+2019-12-07 18:08:01 +0000  Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/bb/061_np9j4h59m9574ptl_zsh0000gn/T/XcodeDistPipeline.~~~PtJngc/Root/Applications/Energy_Charge.app/Contents/Frameworks/libswiftCoreGraphics.dylib' '-verify_arch' 'arm64e'
+2019-12-07 18:08:01 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 1
+2019-12-07 18:08:01 +0000  Skipping architecture thinning for item "libswiftCoreGraphics.dylib" because arch "arm64e" wasn't found
+2019-12-07 18:08:01 +0000  Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/bb/061_np9j4h59m9574ptl_zsh0000gn/T/XcodeDistPipeline.~~~PtJngc/Root/Applications/Energy_Charge.app/Contents/Frameworks/libswiftDarwin.dylib' '-verify_arch' 'arm64e'
+2019-12-07 18:08:01 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 1
+2019-12-07 18:08:01 +0000  Skipping architecture thinning for item "libswiftDarwin.dylib" because arch "arm64e" wasn't found
+2019-12-07 18:08:01 +0000  Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/bb/061_np9j4h59m9574ptl_zsh0000gn/T/XcodeDistPipeline.~~~PtJngc/Root/Applications/Energy_Charge.app/Contents/Frameworks/libswiftDispatch.dylib' '-verify_arch' 'arm64e'
+2019-12-07 18:08:01 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 1
+2019-12-07 18:08:01 +0000  Skipping architecture thinning for item "libswiftDispatch.dylib" because arch "arm64e" wasn't found
+2019-12-07 18:08:01 +0000  Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/bb/061_np9j4h59m9574ptl_zsh0000gn/T/XcodeDistPipeline.~~~PtJngc/Root/Applications/Energy_Charge.app/Contents/Frameworks/libswiftFoundation.dylib' '-verify_arch' 'arm64e'
+2019-12-07 18:08:01 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 1
+2019-12-07 18:08:01 +0000  Skipping architecture thinning for item "libswiftFoundation.dylib" because arch "arm64e" wasn't found
+2019-12-07 18:08:01 +0000  Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/bb/061_np9j4h59m9574ptl_zsh0000gn/T/XcodeDistPipeline.~~~PtJngc/Root/Applications/Energy_Charge.app/Contents/Frameworks/libswiftIOKit.dylib' '-verify_arch' 'arm64e'
+2019-12-07 18:08:01 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 1
+2019-12-07 18:08:01 +0000  Skipping architecture thinning for item "libswiftIOKit.dylib" because arch "arm64e" wasn't found
+2019-12-07 18:08:01 +0000  Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/bb/061_np9j4h59m9574ptl_zsh0000gn/T/XcodeDistPipeline.~~~PtJngc/Root/Applications/Energy_Charge.app/Contents/Frameworks/libswiftObjectiveC.dylib' '-verify_arch' 'arm64e'
+2019-12-07 18:08:01 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 1
+2019-12-07 18:08:01 +0000  Skipping architecture thinning for item "libswiftObjectiveC.dylib" because arch "arm64e" wasn't found
+2019-12-07 18:08:01 +0000  Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/bb/061_np9j4h59m9574ptl_zsh0000gn/T/XcodeDistPipeline.~~~PtJngc/Root/Applications/Energy_Charge.app/Contents/MacOS/Energy_Charge' '-verify_arch' 'arm64e'
+2019-12-07 18:08:01 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 1
+2019-12-07 18:08:01 +0000  Skipping architecture thinning for item "Energy_Charge" because arch "arm64e" wasn't found
+2019-12-07 18:08:01 +0000  Processing step: IDEDistributionODRStep
+2019-12-07 18:08:01 +0000  Processing step: IDEDistributionStripXattrsStep
+2019-12-07 18:08:01 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7fc24c830ef0; bundleID='org.cocoapods.Alamofire', path='<DVTFilePath:0x7fc269050aa0:'/Users/land/Library/Developer/Xcode/Archives/2019-12-08/Energy_Charge 2019-12-8, 2.07 AM.xcarchive/Products/Applications/Energy_Charge.app/Contents/Frameworks/Alamofire.framework/Versions/A'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7fc268c284d0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7fc24a74d790; name='Apple Development: Sihao Liu (8E7Q654P2A)', hash='843F722956A04CCBEF01B1ADEB9301935DD41D4C', serialNumber='377B20C0A59395E6', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2019-09-28 17:28:04 +0000''>', entitlements='(null)', teamID='V8ETDGXR5B', identifier='org.cocoapods.Alamofire', executablePath='<DVTFilePath:0x7fc24a6ce090:'/Users/land/Library/Developer/Xcode/Archives/2019-12-08/Energy_Charge 2019-12-8, 2.07 AM.xcarchive/Products/Applications/Energy_Charge.app/Contents/Frameworks/Alamofire.framework/Versions/A/Alamofire'>', hardenedRuntime='0'>'>
+2019-12-07 18:08:01 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7fc250841d80; bundleID='org.cocoapods.SwiftyJSON', path='<DVTFilePath:0x7fc2680e3b20:'/Users/land/Library/Developer/Xcode/Archives/2019-12-08/Energy_Charge 2019-12-8, 2.07 AM.xcarchive/Products/Applications/Energy_Charge.app/Contents/Frameworks/SwiftyJSON.framework/Versions/A'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7fc269050a60; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7fc24de6ab70; name='Apple Development: Sihao Liu (8E7Q654P2A)', hash='843F722956A04CCBEF01B1ADEB9301935DD41D4C', serialNumber='377B20C0A59395E6', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2019-09-28 17:28:04 +0000''>', entitlements='(null)', teamID='V8ETDGXR5B', identifier='org.cocoapods.SwiftyJSON', executablePath='<DVTFilePath:0x7fc267a3c960:'/Users/land/Library/Developer/Xcode/Archives/2019-12-08/Energy_Charge 2019-12-8, 2.07 AM.xcarchive/Products/Applications/Energy_Charge.app/Contents/Frameworks/SwiftyJSON.framework/Versions/A/SwiftyJSON'>', hardenedRuntime='0'>'>
+2019-12-07 18:08:01 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7fc24a727010; bundleID='com.apple.dt.runtime.swiftCore', path='<DVTFilePath:0x7fc2680daee0:'/Users/land/Library/Developer/Xcode/Archives/2019-12-08/Energy_Charge 2019-12-8, 2.07 AM.xcarchive/Products/Applications/Energy_Charge.app/Contents/Frameworks/libswiftCore.dylib'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7fc268ecc650; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7fc24de6ab70; name='Apple Development: Sihao Liu (8E7Q654P2A)', hash='843F722956A04CCBEF01B1ADEB9301935DD41D4C', serialNumber='377B20C0A59395E6', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2019-09-28 17:28:04 +0000''>', entitlements='(null)', teamID='V8ETDGXR5B', identifier='com.apple.dt.runtime.swiftCore', executablePath='<DVTFilePath:0x7fc2680daee0:'/Users/land/Library/Developer/Xcode/Archives/2019-12-08/Energy_Charge 2019-12-8, 2.07 AM.xcarchive/Products/Applications/Energy_Charge.app/Contents/Frameworks/libswiftCore.dylib'>', hardenedRuntime='0'>'>
+2019-12-07 18:08:01 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7fc24a70a9b0; bundleID='com.apple.dt.runtime.swiftCoreFoundation', path='<DVTFilePath:0x7fc24a7141a0:'/Users/land/Library/Developer/Xcode/Archives/2019-12-08/Energy_Charge 2019-12-8, 2.07 AM.xcarchive/Products/Applications/Energy_Charge.app/Contents/Frameworks/libswiftCoreFoundation.dylib'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7fc24c543980; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7fc24de6ab70; name='Apple Development: Sihao Liu (8E7Q654P2A)', hash='843F722956A04CCBEF01B1ADEB9301935DD41D4C', serialNumber='377B20C0A59395E6', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2019-09-28 17:28:04 +0000''>', entitlements='(null)', teamID='V8ETDGXR5B', identifier='com.apple.dt.runtime.swiftCoreFoundation', executablePath='<DVTFilePath:0x7fc24a7141a0:'/Users/land/Library/Developer/Xcode/Archives/2019-12-08/Energy_Charge 2019-12-8, 2.07 AM.xcarchive/Products/Applications/Energy_Charge.app/Contents/Frameworks/libswiftCoreFoundation.dylib'>', hardenedRuntime='0'>'>
+2019-12-07 18:08:01 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7fc268cf0450; bundleID='com.apple.dt.runtime.swiftCoreGraphics', path='<DVTFilePath:0x7fc268c4e5a0:'/Users/land/Library/Developer/Xcode/Archives/2019-12-08/Energy_Charge 2019-12-8, 2.07 AM.xcarchive/Products/Applications/Energy_Charge.app/Contents/Frameworks/libswiftCoreGraphics.dylib'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7fc268e73ad0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7fc25fd54810; name='Apple Development: Sihao Liu (8E7Q654P2A)', hash='843F722956A04CCBEF01B1ADEB9301935DD41D4C', serialNumber='377B20C0A59395E6', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2019-09-28 17:28:04 +0000''>', entitlements='(null)', teamID='V8ETDGXR5B', identifier='com.apple.dt.runtime.swiftCoreGraphics', executablePath='<DVTFilePath:0x7fc268c4e5a0:'/Users/land/Library/Developer/Xcode/Archives/2019-12-08/Energy_Charge 2019-12-8, 2.07 AM.xcarchive/Products/Applications/Energy_Charge.app/Contents/Frameworks/libswiftCoreGraphics.dylib'>', hardenedRuntime='0'>'>
+2019-12-07 18:08:01 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7fc24a6bcb60; bundleID='com.apple.dt.runtime.swiftDarwin', path='<DVTFilePath:0x7fc268ebdea0:'/Users/land/Library/Developer/Xcode/Archives/2019-12-08/Energy_Charge 2019-12-8, 2.07 AM.xcarchive/Products/Applications/Energy_Charge.app/Contents/Frameworks/libswiftDarwin.dylib'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7fc26906c7f0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7fc25fd54810; name='Apple Development: Sihao Liu (8E7Q654P2A)', hash='843F722956A04CCBEF01B1ADEB9301935DD41D4C', serialNumber='377B20C0A59395E6', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2019-09-28 17:28:04 +0000''>', entitlements='(null)', teamID='V8ETDGXR5B', identifier='com.apple.dt.runtime.swiftDarwin', executablePath='<DVTFilePath:0x7fc268ebdea0:'/Users/land/Library/Developer/Xcode/Archives/2019-12-08/Energy_Charge 2019-12-8, 2.07 AM.xcarchive/Products/Applications/Energy_Charge.app/Contents/Frameworks/libswiftDarwin.dylib'>', hardenedRuntime='0'>'>
+2019-12-07 18:08:01 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7fc26807f730; bundleID='com.apple.dt.runtime.swiftDispatch', path='<DVTFilePath:0x7fc24a6d2ae0:'/Users/land/Library/Developer/Xcode/Archives/2019-12-08/Energy_Charge 2019-12-8, 2.07 AM.xcarchive/Products/Applications/Energy_Charge.app/Contents/Frameworks/libswiftDispatch.dylib'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7fc24a6c9fb0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7fc25fd54810; name='Apple Development: Sihao Liu (8E7Q654P2A)', hash='843F722956A04CCBEF01B1ADEB9301935DD41D4C', serialNumber='377B20C0A59395E6', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2019-09-28 17:28:04 +0000''>', entitlements='(null)', teamID='V8ETDGXR5B', identifier='com.apple.dt.runtime.swiftDispatch', executablePath='<DVTFilePath:0x7fc24a6d2ae0:'/Users/land/Library/Developer/Xcode/Archives/2019-12-08/Energy_Charge 2019-12-8, 2.07 AM.xcarchive/Products/Applications/Energy_Charge.app/Contents/Frameworks/libswiftDispatch.dylib'>', hardenedRuntime='0'>'>
+2019-12-07 18:08:01 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7fc268e39f40; bundleID='com.apple.dt.runtime.swiftFoundation', path='<DVTFilePath:0x7fc24df3ac90:'/Users/land/Library/Developer/Xcode/Archives/2019-12-08/Energy_Charge 2019-12-8, 2.07 AM.xcarchive/Products/Applications/Energy_Charge.app/Contents/Frameworks/libswiftFoundation.dylib'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7fc24a70cdc0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7fc24c880a10; name='Apple Development: Sihao Liu (8E7Q654P2A)', hash='843F722956A04CCBEF01B1ADEB9301935DD41D4C', serialNumber='377B20C0A59395E6', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2019-09-28 17:28:04 +0000''>', entitlements='(null)', teamID='V8ETDGXR5B', identifier='com.apple.dt.runtime.swiftFoundation', executablePath='<DVTFilePath:0x7fc24df3ac90:'/Users/land/Library/Developer/Xcode/Archives/2019-12-08/Energy_Charge 2019-12-8, 2.07 AM.xcarchive/Products/Applications/Energy_Charge.app/Contents/Frameworks/libswiftFoundation.dylib'>', hardenedRuntime='0'>'>
+2019-12-07 18:08:01 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7fc24a70b300; bundleID='com.apple.dt.runtime.swiftIOKit', path='<DVTFilePath:0x7fc268ebed30:'/Users/land/Library/Developer/Xcode/Archives/2019-12-08/Energy_Charge 2019-12-8, 2.07 AM.xcarchive/Products/Applications/Energy_Charge.app/Contents/Frameworks/libswiftIOKit.dylib'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7fc267a2e6b0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7fc24c880a10; name='Apple Development: Sihao Liu (8E7Q654P2A)', hash='843F722956A04CCBEF01B1ADEB9301935DD41D4C', serialNumber='377B20C0A59395E6', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2019-09-28 17:28:04 +0000''>', entitlements='(null)', teamID='V8ETDGXR5B', identifier='com.apple.dt.runtime.swiftIOKit', executablePath='<DVTFilePath:0x7fc268ebed30:'/Users/land/Library/Developer/Xcode/Archives/2019-12-08/Energy_Charge 2019-12-8, 2.07 AM.xcarchive/Products/Applications/Energy_Charge.app/Contents/Frameworks/libswiftIOKit.dylib'>', hardenedRuntime='0'>'>
+2019-12-07 18:08:01 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7fc24a65ced0; bundleID='com.apple.dt.runtime.swiftObjectiveC', path='<DVTFilePath:0x7fc2680174c0:'/Users/land/Library/Developer/Xcode/Archives/2019-12-08/Energy_Charge 2019-12-8, 2.07 AM.xcarchive/Products/Applications/Energy_Charge.app/Contents/Frameworks/libswiftObjectiveC.dylib'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7fc24a6f0220; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7fc24c880a10; name='Apple Development: Sihao Liu (8E7Q654P2A)', hash='843F722956A04CCBEF01B1ADEB9301935DD41D4C', serialNumber='377B20C0A59395E6', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2019-09-28 17:28:04 +0000''>', entitlements='(null)', teamID='V8ETDGXR5B', identifier='com.apple.dt.runtime.swiftObjectiveC', executablePath='<DVTFilePath:0x7fc2680174c0:'/Users/land/Library/Developer/Xcode/Archives/2019-12-08/Energy_Charge 2019-12-8, 2.07 AM.xcarchive/Products/Applications/Energy_Charge.app/Contents/Frameworks/libswiftObjectiveC.dylib'>', hardenedRuntime='0'>'>
+2019-12-07 18:08:01 +0000  Running /usr/bin/xattr '-crs' '/var/folders/bb/061_np9j4h59m9574ptl_zsh0000gn/T/XcodeDistPipeline.~~~PtJngc/Root/Applications/Energy_Charge.app'
+2019-12-07 18:08:01 +0000  /usr/bin/xattr exited with 0
+2019-12-07 18:08:01 +0000  Processing step: IDEDistributionCodesignStep
+2019-12-07 18:08:02 +0000  Entitlements for <IDEDistributionItem: 0x7fc24c830ef0; bundleID='org.cocoapods.Alamofire', path='<DVTFilePath:0x7fc269050aa0:'/Users/land/Library/Developer/Xcode/Archives/2019-12-08/Energy_Charge 2019-12-8, 2.07 AM.xcarchive/Products/Applications/Energy_Charge.app/Contents/Frameworks/Alamofire.framework/Versions/A'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7fc268c284d0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7fc24a754460; name='Apple Development: Sihao Liu (8E7Q654P2A)', hash='843F722956A04CCBEF01B1ADEB9301935DD41D4C', serialNumber='377B20C0A59395E6', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2019-09-28 17:28:04 +0000''>', entitlements='(null)', teamID='V8ETDGXR5B', identifier='org.cocoapods.Alamofire', executablePath='<DVTFilePath:0x7fc24a6ce090:'/Users/land/Library/Developer/Xcode/Archives/2019-12-08/Energy_Charge 2019-12-8, 2.07 AM.xcarchive/Products/Applications/Energy_Charge.app/Contents/Frameworks/Alamofire.framework/Versions/A/Alamofire'>', hardenedRuntime='0'>'>: {
+}
+2019-12-07 18:08:02 +0000  Writing entitlements for <IDEDistributionItem: 0x7fc24c830ef0; bundleID='org.cocoapods.Alamofire', path='<DVTFilePath:0x7fc269050aa0:'/Users/land/Library/Developer/Xcode/Archives/2019-12-08/Energy_Charge 2019-12-8, 2.07 AM.xcarchive/Products/Applications/Energy_Charge.app/Contents/Frameworks/Alamofire.framework/Versions/A'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7fc268c284d0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7fc24a6e01d0; name='Apple Development: Sihao Liu (8E7Q654P2A)', hash='843F722956A04CCBEF01B1ADEB9301935DD41D4C', serialNumber='377B20C0A59395E6', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2019-09-28 17:28:04 +0000''>', entitlements='(null)', teamID='V8ETDGXR5B', identifier='org.cocoapods.Alamofire', executablePath='<DVTFilePath:0x7fc24a6ce090:'/Users/land/Library/Developer/Xcode/Archives/2019-12-08/Energy_Charge 2019-12-8, 2.07 AM.xcarchive/Products/Applications/Energy_Charge.app/Contents/Frameworks/Alamofire.framework/Versions/A/Alamofire'>', hardenedRuntime='0'>'> to: /var/folders/bb/061_np9j4h59m9574ptl_zsh0000gn/T/XcodeDistPipeline.~~~PtJngc/entitlements~~~Y0TH9B
+2019-12-07 18:08:02 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' 'DA272F28AE10CCD2D29177E24A440CB4CCF54CEE' '--entitlements' '/var/folders/bb/061_np9j4h59m9574ptl_zsh0000gn/T/XcodeDistPipeline.~~~PtJngc/entitlements~~~Y0TH9B' '--preserve-metadata=identifier,flags,runtime' '/var/folders/bb/061_np9j4h59m9574ptl_zsh0000gn/T/XcodeDistPipeline.~~~PtJngc/Root/Applications/Energy_Charge.app/Contents/Frameworks/Alamofire.framework/Versions/A'
+2019-12-07 18:08:02 +0000  /var/folders/bb/061_np9j4h59m9574ptl_zsh0000gn/T/XcodeDistPipeline.~~~PtJngc/Root/Applications/Energy_Charge.app/Contents/Frameworks/Alamofire.framework/Versions/A: replacing existing signature
+2019-12-07 18:08:02 +0000  /var/folders/bb/061_np9j4h59m9574ptl_zsh0000gn/T/XcodeDistPipeline.~~~PtJngc/Root/Applications/Energy_Charge.app/Contents/Frameworks/Alamofire.framework/Versions/A: signed bundle with Mach-O thin (x86_64) [org.cocoapods.Alamofire]
+2019-12-07 18:08:02 +0000  /usr/bin/codesign exited with 0
+2019-12-07 18:08:02 +0000  Entitlements for <IDEDistributionItem: 0x7fc250841d80; bundleID='org.cocoapods.SwiftyJSON', path='<DVTFilePath:0x7fc2680e3b20:'/Users/land/Library/Developer/Xcode/Archives/2019-12-08/Energy_Charge 2019-12-8, 2.07 AM.xcarchive/Products/Applications/Energy_Charge.app/Contents/Frameworks/SwiftyJSON.framework/Versions/A'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7fc269050a60; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7fc24df05440; name='Apple Development: Sihao Liu (8E7Q654P2A)', hash='843F722956A04CCBEF01B1ADEB9301935DD41D4C', serialNumber='377B20C0A59395E6', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2019-09-28 17:28:04 +0000''>', entitlements='(null)', teamID='V8ETDGXR5B', identifier='org.cocoapods.SwiftyJSON', executablePath='<DVTFilePath:0x7fc267a3c960:'/Users/land/Library/Developer/Xcode/Archives/2019-12-08/Energy_Charge 2019-12-8, 2.07 AM.xcarchive/Products/Applications/Energy_Charge.app/Contents/Frameworks/SwiftyJSON.framework/Versions/A/SwiftyJSON'>', hardenedRuntime='0'>'>: {
+}
+2019-12-07 18:08:02 +0000  Writing entitlements for <IDEDistributionItem: 0x7fc250841d80; bundleID='org.cocoapods.SwiftyJSON', path='<DVTFilePath:0x7fc2680e3b20:'/Users/land/Library/Developer/Xcode/Archives/2019-12-08/Energy_Charge 2019-12-8, 2.07 AM.xcarchive/Products/Applications/Energy_Charge.app/Contents/Frameworks/SwiftyJSON.framework/Versions/A'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7fc269050a60; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7fc24a727a60; name='Apple Development: Sihao Liu (8E7Q654P2A)', hash='843F722956A04CCBEF01B1ADEB9301935DD41D4C', serialNumber='377B20C0A59395E6', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2019-09-28 17:28:04 +0000''>', entitlements='(null)', teamID='V8ETDGXR5B', identifier='org.cocoapods.SwiftyJSON', executablePath='<DVTFilePath:0x7fc267a3c960:'/Users/land/Library/Developer/Xcode/Archives/2019-12-08/Energy_Charge 2019-12-8, 2.07 AM.xcarchive/Products/Applications/Energy_Charge.app/Contents/Frameworks/SwiftyJSON.framework/Versions/A/SwiftyJSON'>', hardenedRuntime='0'>'> to: /var/folders/bb/061_np9j4h59m9574ptl_zsh0000gn/T/XcodeDistPipeline.~~~PtJngc/entitlements~~~3dcJQC
+2019-12-07 18:08:02 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' 'DA272F28AE10CCD2D29177E24A440CB4CCF54CEE' '--entitlements' '/var/folders/bb/061_np9j4h59m9574ptl_zsh0000gn/T/XcodeDistPipeline.~~~PtJngc/entitlements~~~3dcJQC' '--preserve-metadata=identifier,flags,runtime' '/var/folders/bb/061_np9j4h59m9574ptl_zsh0000gn/T/XcodeDistPipeline.~~~PtJngc/Root/Applications/Energy_Charge.app/Contents/Frameworks/SwiftyJSON.framework/Versions/A'
+2019-12-07 18:08:02 +0000  /var/folders/bb/061_np9j4h59m9574ptl_zsh0000gn/T/XcodeDistPipeline.~~~PtJngc/Root/Applications/Energy_Charge.app/Contents/Frameworks/SwiftyJSON.framework/Versions/A: replacing existing signature
+2019-12-07 18:08:02 +0000  /var/folders/bb/061_np9j4h59m9574ptl_zsh0000gn/T/XcodeDistPipeline.~~~PtJngc/Root/Applications/Energy_Charge.app/Contents/Frameworks/SwiftyJSON.framework/Versions/A: signed bundle with Mach-O thin (x86_64) [org.cocoapods.SwiftyJSON]
+2019-12-07 18:08:02 +0000  /usr/bin/codesign exited with 0
+2019-12-07 18:08:02 +0000  Entitlements for <IDEDistributionItem: 0x7fc24a727010; bundleID='com.apple.dt.runtime.swiftCore', path='<DVTFilePath:0x7fc2680daee0:'/Users/land/Library/Developer/Xcode/Archives/2019-12-08/Energy_Charge 2019-12-8, 2.07 AM.xcarchive/Products/Applications/Energy_Charge.app/Contents/Frameworks/libswiftCore.dylib'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7fc268ecc650; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7fc25fd54810; name='Apple Development: Sihao Liu (8E7Q654P2A)', hash='843F722956A04CCBEF01B1ADEB9301935DD41D4C', serialNumber='377B20C0A59395E6', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2019-09-28 17:28:04 +0000''>', entitlements='(null)', teamID='V8ETDGXR5B', identifier='com.apple.dt.runtime.swiftCore', executablePath='<DVTFilePath:0x7fc2680daee0:'/Users/land/Library/Developer/Xcode/Archives/2019-12-08/Energy_Charge 2019-12-8, 2.07 AM.xcarchive/Products/Applications/Energy_Charge.app/Contents/Frameworks/libswiftCore.dylib'>', hardenedRuntime='0'>'>: {
+}
+2019-12-07 18:08:02 +0000  Writing entitlements for <IDEDistributionItem: 0x7fc24a727010; bundleID='com.apple.dt.runtime.swiftCore', path='<DVTFilePath:0x7fc2680daee0:'/Users/land/Library/Developer/Xcode/Archives/2019-12-08/Energy_Charge 2019-12-8, 2.07 AM.xcarchive/Products/Applications/Energy_Charge.app/Contents/Frameworks/libswiftCore.dylib'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7fc268ecc650; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7fc24a74def0; name='Apple Development: Sihao Liu (8E7Q654P2A)', hash='843F722956A04CCBEF01B1ADEB9301935DD41D4C', serialNumber='377B20C0A59395E6', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2019-09-28 17:28:04 +0000''>', entitlements='(null)', teamID='V8ETDGXR5B', identifier='com.apple.dt.runtime.swiftCore', executablePath='<DVTFilePath:0x7fc2680daee0:'/Users/land/Library/Developer/Xcode/Archives/2019-12-08/Energy_Charge 2019-12-8, 2.07 AM.xcarchive/Products/Applications/Energy_Charge.app/Contents/Frameworks/libswiftCore.dylib'>', hardenedRuntime='0'>'> to: /var/folders/bb/061_np9j4h59m9574ptl_zsh0000gn/T/XcodeDistPipeline.~~~PtJngc/entitlements~~~7x3nFI
+2019-12-07 18:08:02 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' 'DA272F28AE10CCD2D29177E24A440CB4CCF54CEE' '--entitlements' '/var/folders/bb/061_np9j4h59m9574ptl_zsh0000gn/T/XcodeDistPipeline.~~~PtJngc/entitlements~~~7x3nFI' '--preserve-metadata=identifier,flags,runtime' '/var/folders/bb/061_np9j4h59m9574ptl_zsh0000gn/T/XcodeDistPipeline.~~~PtJngc/Root/Applications/Energy_Charge.app/Contents/Frameworks/libswiftCore.dylib'
+2019-12-07 18:08:02 +0000  /var/folders/bb/061_np9j4h59m9574ptl_zsh0000gn/T/XcodeDistPipeline.~~~PtJngc/Root/Applications/Energy_Charge.app/Contents/Frameworks/libswiftCore.dylib: replacing existing signature
+2019-12-07 18:08:02 +0000  /var/folders/bb/061_np9j4h59m9574ptl_zsh0000gn/T/XcodeDistPipeline.~~~PtJngc/Root/Applications/Energy_Charge.app/Contents/Frameworks/libswiftCore.dylib: signed Mach-O thin (x86_64) [com.apple.dt.runtime.swiftCore]
+2019-12-07 18:08:02 +0000  /usr/bin/codesign exited with 0
+2019-12-07 18:08:02 +0000  Entitlements for <IDEDistributionItem: 0x7fc24a70a9b0; bundleID='com.apple.dt.runtime.swiftCoreFoundation', path='<DVTFilePath:0x7fc24a7141a0:'/Users/land/Library/Developer/Xcode/Archives/2019-12-08/Energy_Charge 2019-12-8, 2.07 AM.xcarchive/Products/Applications/Energy_Charge.app/Contents/Frameworks/libswiftCoreFoundation.dylib'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7fc24c543980; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7fc25fd54810; name='Apple Development: Sihao Liu (8E7Q654P2A)', hash='843F722956A04CCBEF01B1ADEB9301935DD41D4C', serialNumber='377B20C0A59395E6', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2019-09-28 17:28:04 +0000''>', entitlements='(null)', teamID='V8ETDGXR5B', identifier='com.apple.dt.runtime.swiftCoreFoundation', executablePath='<DVTFilePath:0x7fc24a7141a0:'/Users/land/Library/Developer/Xcode/Archives/2019-12-08/Energy_Charge 2019-12-8, 2.07 AM.xcarchive/Products/Applications/Energy_Charge.app/Contents/Frameworks/libswiftCoreFoundation.dylib'>', hardenedRuntime='0'>'>: {
+}
+2019-12-07 18:08:02 +0000  Writing entitlements for <IDEDistributionItem: 0x7fc24a70a9b0; bundleID='com.apple.dt.runtime.swiftCoreFoundation', path='<DVTFilePath:0x7fc24a7141a0:'/Users/land/Library/Developer/Xcode/Archives/2019-12-08/Energy_Charge 2019-12-8, 2.07 AM.xcarchive/Products/Applications/Energy_Charge.app/Contents/Frameworks/libswiftCoreFoundation.dylib'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7fc24c543980; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7fc26a166e40; name='Apple Development: Sihao Liu (8E7Q654P2A)', hash='843F722956A04CCBEF01B1ADEB9301935DD41D4C', serialNumber='377B20C0A59395E6', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2019-09-28 17:28:04 +0000''>', entitlements='(null)', teamID='V8ETDGXR5B', identifier='com.apple.dt.runtime.swiftCoreFoundation', executablePath='<DVTFilePath:0x7fc24a7141a0:'/Users/land/Library/Developer/Xcode/Archives/2019-12-08/Energy_Charge 2019-12-8, 2.07 AM.xcarchive/Products/Applications/Energy_Charge.app/Contents/Frameworks/libswiftCoreFoundation.dylib'>', hardenedRuntime='0'>'> to: /var/folders/bb/061_np9j4h59m9574ptl_zsh0000gn/T/XcodeDistPipeline.~~~PtJngc/entitlements~~~xyGreh
+2019-12-07 18:08:02 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' 'DA272F28AE10CCD2D29177E24A440CB4CCF54CEE' '--entitlements' '/var/folders/bb/061_np9j4h59m9574ptl_zsh0000gn/T/XcodeDistPipeline.~~~PtJngc/entitlements~~~xyGreh' '--preserve-metadata=identifier,flags,runtime' '/var/folders/bb/061_np9j4h59m9574ptl_zsh0000gn/T/XcodeDistPipeline.~~~PtJngc/Root/Applications/Energy_Charge.app/Contents/Frameworks/libswiftCoreFoundation.dylib'
+2019-12-07 18:08:02 +0000  /var/folders/bb/061_np9j4h59m9574ptl_zsh0000gn/T/XcodeDistPipeline.~~~PtJngc/Root/Applications/Energy_Charge.app/Contents/Frameworks/libswiftCoreFoundation.dylib: replacing existing signature
+2019-12-07 18:08:02 +0000  /var/folders/bb/061_np9j4h59m9574ptl_zsh0000gn/T/XcodeDistPipeline.~~~PtJngc/Root/Applications/Energy_Charge.app/Contents/Frameworks/libswiftCoreFoundation.dylib: signed Mach-O thin (x86_64) [com.apple.dt.runtime.swiftCoreFoundation]
+2019-12-07 18:08:02 +0000  /usr/bin/codesign exited with 0
+2019-12-07 18:08:02 +0000  Entitlements for <IDEDistributionItem: 0x7fc268cf0450; bundleID='com.apple.dt.runtime.swiftCoreGraphics', path='<DVTFilePath:0x7fc268c4e5a0:'/Users/land/Library/Developer/Xcode/Archives/2019-12-08/Energy_Charge 2019-12-8, 2.07 AM.xcarchive/Products/Applications/Energy_Charge.app/Contents/Frameworks/libswiftCoreGraphics.dylib'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7fc268e73ad0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7fc24a754350; name='Apple Development: Sihao Liu (8E7Q654P2A)', hash='843F722956A04CCBEF01B1ADEB9301935DD41D4C', serialNumber='377B20C0A59395E6', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2019-09-28 17:28:04 +0000''>', entitlements='(null)', teamID='V8ETDGXR5B', identifier='com.apple.dt.runtime.swiftCoreGraphics', executablePath='<DVTFilePath:0x7fc268c4e5a0:'/Users/land/Library/Developer/Xcode/Archives/2019-12-08/Energy_Charge 2019-12-8, 2.07 AM.xcarchive/Products/Applications/Energy_Charge.app/Contents/Frameworks/libswiftCoreGraphics.dylib'>', hardenedRuntime='0'>'>: {
+}
+2019-12-07 18:08:02 +0000  Writing entitlements for <IDEDistributionItem: 0x7fc268cf0450; bundleID='com.apple.dt.runtime.swiftCoreGraphics', path='<DVTFilePath:0x7fc268c4e5a0:'/Users/land/Library/Developer/Xcode/Archives/2019-12-08/Energy_Charge 2019-12-8, 2.07 AM.xcarchive/Products/Applications/Energy_Charge.app/Contents/Frameworks/libswiftCoreGraphics.dylib'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7fc268e73ad0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7fc24a748440; name='Apple Development: Sihao Liu (8E7Q654P2A)', hash='843F722956A04CCBEF01B1ADEB9301935DD41D4C', serialNumber='377B20C0A59395E6', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2019-09-28 17:28:04 +0000''>', entitlements='(null)', teamID='V8ETDGXR5B', identifier='com.apple.dt.runtime.swiftCoreGraphics', executablePath='<DVTFilePath:0x7fc268c4e5a0:'/Users/land/Library/Developer/Xcode/Archives/2019-12-08/Energy_Charge 2019-12-8, 2.07 AM.xcarchive/Products/Applications/Energy_Charge.app/Contents/Frameworks/libswiftCoreGraphics.dylib'>', hardenedRuntime='0'>'> to: /var/folders/bb/061_np9j4h59m9574ptl_zsh0000gn/T/XcodeDistPipeline.~~~PtJngc/entitlements~~~Op39TL
+2019-12-07 18:08:02 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' 'DA272F28AE10CCD2D29177E24A440CB4CCF54CEE' '--entitlements' '/var/folders/bb/061_np9j4h59m9574ptl_zsh0000gn/T/XcodeDistPipeline.~~~PtJngc/entitlements~~~Op39TL' '--preserve-metadata=identifier,flags,runtime' '/var/folders/bb/061_np9j4h59m9574ptl_zsh0000gn/T/XcodeDistPipeline.~~~PtJngc/Root/Applications/Energy_Charge.app/Contents/Frameworks/libswiftCoreGraphics.dylib'
+2019-12-07 18:08:02 +0000  /var/folders/bb/061_np9j4h59m9574ptl_zsh0000gn/T/XcodeDistPipeline.~~~PtJngc/Root/Applications/Energy_Charge.app/Contents/Frameworks/libswiftCoreGraphics.dylib: replacing existing signature
+2019-12-07 18:08:02 +0000  /var/folders/bb/061_np9j4h59m9574ptl_zsh0000gn/T/XcodeDistPipeline.~~~PtJngc/Root/Applications/Energy_Charge.app/Contents/Frameworks/libswiftCoreGraphics.dylib: signed Mach-O thin (x86_64) [com.apple.dt.runtime.swiftCoreGraphics]
+2019-12-07 18:08:02 +0000  /usr/bin/codesign exited with 0
+2019-12-07 18:08:02 +0000  Entitlements for <IDEDistributionItem: 0x7fc24a6bcb60; bundleID='com.apple.dt.runtime.swiftDarwin', path='<DVTFilePath:0x7fc268ebdea0:'/Users/land/Library/Developer/Xcode/Archives/2019-12-08/Energy_Charge 2019-12-8, 2.07 AM.xcarchive/Products/Applications/Energy_Charge.app/Contents/Frameworks/libswiftDarwin.dylib'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7fc26906c7f0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7fc24dd50c50; name='Apple Development: Sihao Liu (8E7Q654P2A)', hash='843F722956A04CCBEF01B1ADEB9301935DD41D4C', serialNumber='377B20C0A59395E6', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2019-09-28 17:28:04 +0000''>', entitlements='(null)', teamID='V8ETDGXR5B', identifier='com.apple.dt.runtime.swiftDarwin', executablePath='<DVTFilePath:0x7fc268ebdea0:'/Users/land/Library/Developer/Xcode/Archives/2019-12-08/Energy_Charge 2019-12-8, 2.07 AM.xcarchive/Products/Applications/Energy_Charge.app/Contents/Frameworks/libswiftDarwin.dylib'>', hardenedRuntime='0'>'>: {
+}
+2019-12-07 18:08:02 +0000  Writing entitlements for <IDEDistributionItem: 0x7fc24a6bcb60; bundleID='com.apple.dt.runtime.swiftDarwin', path='<DVTFilePath:0x7fc268ebdea0:'/Users/land/Library/Developer/Xcode/Archives/2019-12-08/Energy_Charge 2019-12-8, 2.07 AM.xcarchive/Products/Applications/Energy_Charge.app/Contents/Frameworks/libswiftDarwin.dylib'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7fc26906c7f0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7fc25092f4b0; name='Apple Development: Sihao Liu (8E7Q654P2A)', hash='843F722956A04CCBEF01B1ADEB9301935DD41D4C', serialNumber='377B20C0A59395E6', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2019-09-28 17:28:04 +0000''>', entitlements='(null)', teamID='V8ETDGXR5B', identifier='com.apple.dt.runtime.swiftDarwin', executablePath='<DVTFilePath:0x7fc268ebdea0:'/Users/land/Library/Developer/Xcode/Archives/2019-12-08/Energy_Charge 2019-12-8, 2.07 AM.xcarchive/Products/Applications/Energy_Charge.app/Contents/Frameworks/libswiftDarwin.dylib'>', hardenedRuntime='0'>'> to: /var/folders/bb/061_np9j4h59m9574ptl_zsh0000gn/T/XcodeDistPipeline.~~~PtJngc/entitlements~~~q3jmLI
+2019-12-07 18:08:02 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' 'DA272F28AE10CCD2D29177E24A440CB4CCF54CEE' '--entitlements' '/var/folders/bb/061_np9j4h59m9574ptl_zsh0000gn/T/XcodeDistPipeline.~~~PtJngc/entitlements~~~q3jmLI' '--preserve-metadata=identifier,flags,runtime' '/var/folders/bb/061_np9j4h59m9574ptl_zsh0000gn/T/XcodeDistPipeline.~~~PtJngc/Root/Applications/Energy_Charge.app/Contents/Frameworks/libswiftDarwin.dylib'
+2019-12-07 18:08:02 +0000  /var/folders/bb/061_np9j4h59m9574ptl_zsh0000gn/T/XcodeDistPipeline.~~~PtJngc/Root/Applications/Energy_Charge.app/Contents/Frameworks/libswiftDarwin.dylib: replacing existing signature
+2019-12-07 18:08:02 +0000  /var/folders/bb/061_np9j4h59m9574ptl_zsh0000gn/T/XcodeDistPipeline.~~~PtJngc/Root/Applications/Energy_Charge.app/Contents/Frameworks/libswiftDarwin.dylib: signed Mach-O thin (x86_64) [com.apple.dt.runtime.swiftDarwin]
+2019-12-07 18:08:02 +0000  /usr/bin/codesign exited with 0
+2019-12-07 18:08:02 +0000  Entitlements for <IDEDistributionItem: 0x7fc26807f730; bundleID='com.apple.dt.runtime.swiftDispatch', path='<DVTFilePath:0x7fc24a6d2ae0:'/Users/land/Library/Developer/Xcode/Archives/2019-12-08/Energy_Charge 2019-12-8, 2.07 AM.xcarchive/Products/Applications/Energy_Charge.app/Contents/Frameworks/libswiftDispatch.dylib'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7fc24a6c9fb0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7fc25fd54810; name='Apple Development: Sihao Liu (8E7Q654P2A)', hash='843F722956A04CCBEF01B1ADEB9301935DD41D4C', serialNumber='377B20C0A59395E6', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2019-09-28 17:28:04 +0000''>', entitlements='(null)', teamID='V8ETDGXR5B', identifier='com.apple.dt.runtime.swiftDispatch', executablePath='<DVTFilePath:0x7fc24a6d2ae0:'/Users/land/Library/Developer/Xcode/Archives/2019-12-08/Energy_Charge 2019-12-8, 2.07 AM.xcarchive/Products/Applications/Energy_Charge.app/Contents/Frameworks/libswiftDispatch.dylib'>', hardenedRuntime='0'>'>: {
+}
+2019-12-07 18:08:02 +0000  Writing entitlements for <IDEDistributionItem: 0x7fc26807f730; bundleID='com.apple.dt.runtime.swiftDispatch', path='<DVTFilePath:0x7fc24a6d2ae0:'/Users/land/Library/Developer/Xcode/Archives/2019-12-08/Energy_Charge 2019-12-8, 2.07 AM.xcarchive/Products/Applications/Energy_Charge.app/Contents/Frameworks/libswiftDispatch.dylib'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7fc24a6c9fb0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7fc24a728320; name='Apple Development: Sihao Liu (8E7Q654P2A)', hash='843F722956A04CCBEF01B1ADEB9301935DD41D4C', serialNumber='377B20C0A59395E6', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2019-09-28 17:28:04 +0000''>', entitlements='(null)', teamID='V8ETDGXR5B', identifier='com.apple.dt.runtime.swiftDispatch', executablePath='<DVTFilePath:0x7fc24a6d2ae0:'/Users/land/Library/Developer/Xcode/Archives/2019-12-08/Energy_Charge 2019-12-8, 2.07 AM.xcarchive/Products/Applications/Energy_Charge.app/Contents/Frameworks/libswiftDispatch.dylib'>', hardenedRuntime='0'>'> to: /var/folders/bb/061_np9j4h59m9574ptl_zsh0000gn/T/XcodeDistPipeline.~~~PtJngc/entitlements~~~pEiaQq
+2019-12-07 18:08:02 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' 'DA272F28AE10CCD2D29177E24A440CB4CCF54CEE' '--entitlements' '/var/folders/bb/061_np9j4h59m9574ptl_zsh0000gn/T/XcodeDistPipeline.~~~PtJngc/entitlements~~~pEiaQq' '--preserve-metadata=identifier,flags,runtime' '/var/folders/bb/061_np9j4h59m9574ptl_zsh0000gn/T/XcodeDistPipeline.~~~PtJngc/Root/Applications/Energy_Charge.app/Contents/Frameworks/libswiftDispatch.dylib'
+2019-12-07 18:08:02 +0000  /var/folders/bb/061_np9j4h59m9574ptl_zsh0000gn/T/XcodeDistPipeline.~~~PtJngc/Root/Applications/Energy_Charge.app/Contents/Frameworks/libswiftDispatch.dylib: replacing existing signature
+2019-12-07 18:08:02 +0000  /var/folders/bb/061_np9j4h59m9574ptl_zsh0000gn/T/XcodeDistPipeline.~~~PtJngc/Root/Applications/Energy_Charge.app/Contents/Frameworks/libswiftDispatch.dylib: signed Mach-O thin (x86_64) [com.apple.dt.runtime.swiftDispatch]
+2019-12-07 18:08:02 +0000  /usr/bin/codesign exited with 0
+2019-12-07 18:08:02 +0000  Entitlements for <IDEDistributionItem: 0x7fc268e39f40; bundleID='com.apple.dt.runtime.swiftFoundation', path='<DVTFilePath:0x7fc24df3ac90:'/Users/land/Library/Developer/Xcode/Archives/2019-12-08/Energy_Charge 2019-12-8, 2.07 AM.xcarchive/Products/Applications/Energy_Charge.app/Contents/Frameworks/libswiftFoundation.dylib'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7fc24a70cdc0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7fc24a706400; name='Apple Development: Sihao Liu (8E7Q654P2A)', hash='843F722956A04CCBEF01B1ADEB9301935DD41D4C', serialNumber='377B20C0A59395E6', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2019-09-28 17:28:04 +0000''>', entitlements='(null)', teamID='V8ETDGXR5B', identifier='com.apple.dt.runtime.swiftFoundation', executablePath='<DVTFilePath:0x7fc24df3ac90:'/Users/land/Library/Developer/Xcode/Archives/2019-12-08/Energy_Charge 2019-12-8, 2.07 AM.xcarchive/Products/Applications/Energy_Charge.app/Contents/Frameworks/libswiftFoundation.dylib'>', hardenedRuntime='0'>'>: {
+}
+2019-12-07 18:08:02 +0000  Writing entitlements for <IDEDistributionItem: 0x7fc268e39f40; bundleID='com.apple.dt.runtime.swiftFoundation', path='<DVTFilePath:0x7fc24df3ac90:'/Users/land/Library/Developer/Xcode/Archives/2019-12-08/Energy_Charge 2019-12-8, 2.07 AM.xcarchive/Products/Applications/Energy_Charge.app/Contents/Frameworks/libswiftFoundation.dylib'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7fc24a70cdc0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7fc24a6f73a0; name='Apple Development: Sihao Liu (8E7Q654P2A)', hash='843F722956A04CCBEF01B1ADEB9301935DD41D4C', serialNumber='377B20C0A59395E6', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2019-09-28 17:28:04 +0000''>', entitlements='(null)', teamID='V8ETDGXR5B', identifier='com.apple.dt.runtime.swiftFoundation', executablePath='<DVTFilePath:0x7fc24df3ac90:'/Users/land/Library/Developer/Xcode/Archives/2019-12-08/Energy_Charge 2019-12-8, 2.07 AM.xcarchive/Products/Applications/Energy_Charge.app/Contents/Frameworks/libswiftFoundation.dylib'>', hardenedRuntime='0'>'> to: /var/folders/bb/061_np9j4h59m9574ptl_zsh0000gn/T/XcodeDistPipeline.~~~PtJngc/entitlements~~~9V7eit
+2019-12-07 18:08:02 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' 'DA272F28AE10CCD2D29177E24A440CB4CCF54CEE' '--entitlements' '/var/folders/bb/061_np9j4h59m9574ptl_zsh0000gn/T/XcodeDistPipeline.~~~PtJngc/entitlements~~~9V7eit' '--preserve-metadata=identifier,flags,runtime' '/var/folders/bb/061_np9j4h59m9574ptl_zsh0000gn/T/XcodeDistPipeline.~~~PtJngc/Root/Applications/Energy_Charge.app/Contents/Frameworks/libswiftFoundation.dylib'
+2019-12-07 18:08:02 +0000  /var/folders/bb/061_np9j4h59m9574ptl_zsh0000gn/T/XcodeDistPipeline.~~~PtJngc/Root/Applications/Energy_Charge.app/Contents/Frameworks/libswiftFoundation.dylib: replacing existing signature
+2019-12-07 18:08:02 +0000  /var/folders/bb/061_np9j4h59m9574ptl_zsh0000gn/T/XcodeDistPipeline.~~~PtJngc/Root/Applications/Energy_Charge.app/Contents/Frameworks/libswiftFoundation.dylib: signed Mach-O thin (x86_64) [com.apple.dt.runtime.swiftFoundation]
+2019-12-07 18:08:02 +0000  /usr/bin/codesign exited with 0
+2019-12-07 18:08:02 +0000  Entitlements for <IDEDistributionItem: 0x7fc24a70b300; bundleID='com.apple.dt.runtime.swiftIOKit', path='<DVTFilePath:0x7fc268ebed30:'/Users/land/Library/Developer/Xcode/Archives/2019-12-08/Energy_Charge 2019-12-8, 2.07 AM.xcarchive/Products/Applications/Energy_Charge.app/Contents/Frameworks/libswiftIOKit.dylib'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7fc267a2e6b0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7fc24df05440; name='Apple Development: Sihao Liu (8E7Q654P2A)', hash='843F722956A04CCBEF01B1ADEB9301935DD41D4C', serialNumber='377B20C0A59395E6', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2019-09-28 17:28:04 +0000''>', entitlements='(null)', teamID='V8ETDGXR5B', identifier='com.apple.dt.runtime.swiftIOKit', executablePath='<DVTFilePath:0x7fc268ebed30:'/Users/land/Library/Developer/Xcode/Archives/2019-12-08/Energy_Charge 2019-12-8, 2.07 AM.xcarchive/Products/Applications/Energy_Charge.app/Contents/Frameworks/libswiftIOKit.dylib'>', hardenedRuntime='0'>'>: {
+}
+2019-12-07 18:08:02 +0000  Writing entitlements for <IDEDistributionItem: 0x7fc24a70b300; bundleID='com.apple.dt.runtime.swiftIOKit', path='<DVTFilePath:0x7fc268ebed30:'/Users/land/Library/Developer/Xcode/Archives/2019-12-08/Energy_Charge 2019-12-8, 2.07 AM.xcarchive/Products/Applications/Energy_Charge.app/Contents/Frameworks/libswiftIOKit.dylib'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7fc267a2e6b0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7fc24c85c9b0; name='Apple Development: Sihao Liu (8E7Q654P2A)', hash='843F722956A04CCBEF01B1ADEB9301935DD41D4C', serialNumber='377B20C0A59395E6', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2019-09-28 17:28:04 +0000''>', entitlements='(null)', teamID='V8ETDGXR5B', identifier='com.apple.dt.runtime.swiftIOKit', executablePath='<DVTFilePath:0x7fc268ebed30:'/Users/land/Library/Developer/Xcode/Archives/2019-12-08/Energy_Charge 2019-12-8, 2.07 AM.xcarchive/Products/Applications/Energy_Charge.app/Contents/Frameworks/libswiftIOKit.dylib'>', hardenedRuntime='0'>'> to: /var/folders/bb/061_np9j4h59m9574ptl_zsh0000gn/T/XcodeDistPipeline.~~~PtJngc/entitlements~~~oySw6l
+2019-12-07 18:08:02 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' 'DA272F28AE10CCD2D29177E24A440CB4CCF54CEE' '--entitlements' '/var/folders/bb/061_np9j4h59m9574ptl_zsh0000gn/T/XcodeDistPipeline.~~~PtJngc/entitlements~~~oySw6l' '--preserve-metadata=identifier,flags,runtime' '/var/folders/bb/061_np9j4h59m9574ptl_zsh0000gn/T/XcodeDistPipeline.~~~PtJngc/Root/Applications/Energy_Charge.app/Contents/Frameworks/libswiftIOKit.dylib'
+2019-12-07 18:08:02 +0000  /var/folders/bb/061_np9j4h59m9574ptl_zsh0000gn/T/XcodeDistPipeline.~~~PtJngc/Root/Applications/Energy_Charge.app/Contents/Frameworks/libswiftIOKit.dylib: replacing existing signature
+2019-12-07 18:08:02 +0000  /var/folders/bb/061_np9j4h59m9574ptl_zsh0000gn/T/XcodeDistPipeline.~~~PtJngc/Root/Applications/Energy_Charge.app/Contents/Frameworks/libswiftIOKit.dylib: signed Mach-O thin (x86_64) [com.apple.dt.runtime.swiftIOKit]
+2019-12-07 18:08:02 +0000  /usr/bin/codesign exited with 0
+2019-12-07 18:08:02 +0000  Entitlements for <IDEDistributionItem: 0x7fc24a65ced0; bundleID='com.apple.dt.runtime.swiftObjectiveC', path='<DVTFilePath:0x7fc2680174c0:'/Users/land/Library/Developer/Xcode/Archives/2019-12-08/Energy_Charge 2019-12-8, 2.07 AM.xcarchive/Products/Applications/Energy_Charge.app/Contents/Frameworks/libswiftObjectiveC.dylib'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7fc24a6f0220; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7fc24a764870; name='Apple Development: Sihao Liu (8E7Q654P2A)', hash='843F722956A04CCBEF01B1ADEB9301935DD41D4C', serialNumber='377B20C0A59395E6', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2019-09-28 17:28:04 +0000''>', entitlements='(null)', teamID='V8ETDGXR5B', identifier='com.apple.dt.runtime.swiftObjectiveC', executablePath='<DVTFilePath:0x7fc2680174c0:'/Users/land/Library/Developer/Xcode/Archives/2019-12-08/Energy_Charge 2019-12-8, 2.07 AM.xcarchive/Products/Applications/Energy_Charge.app/Contents/Frameworks/libswiftObjectiveC.dylib'>', hardenedRuntime='0'>'>: {
+}
+2019-12-07 18:08:02 +0000  Writing entitlements for <IDEDistributionItem: 0x7fc24a65ced0; bundleID='com.apple.dt.runtime.swiftObjectiveC', path='<DVTFilePath:0x7fc2680174c0:'/Users/land/Library/Developer/Xcode/Archives/2019-12-08/Energy_Charge 2019-12-8, 2.07 AM.xcarchive/Products/Applications/Energy_Charge.app/Contents/Frameworks/libswiftObjectiveC.dylib'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7fc24a6f0220; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7fc24a6f7300; name='Apple Development: Sihao Liu (8E7Q654P2A)', hash='843F722956A04CCBEF01B1ADEB9301935DD41D4C', serialNumber='377B20C0A59395E6', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2019-09-28 17:28:04 +0000''>', entitlements='(null)', teamID='V8ETDGXR5B', identifier='com.apple.dt.runtime.swiftObjectiveC', executablePath='<DVTFilePath:0x7fc2680174c0:'/Users/land/Library/Developer/Xcode/Archives/2019-12-08/Energy_Charge 2019-12-8, 2.07 AM.xcarchive/Products/Applications/Energy_Charge.app/Contents/Frameworks/libswiftObjectiveC.dylib'>', hardenedRuntime='0'>'> to: /var/folders/bb/061_np9j4h59m9574ptl_zsh0000gn/T/XcodeDistPipeline.~~~PtJngc/entitlements~~~ji9xz8
+2019-12-07 18:08:02 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' 'DA272F28AE10CCD2D29177E24A440CB4CCF54CEE' '--entitlements' '/var/folders/bb/061_np9j4h59m9574ptl_zsh0000gn/T/XcodeDistPipeline.~~~PtJngc/entitlements~~~ji9xz8' '--preserve-metadata=identifier,flags,runtime' '/var/folders/bb/061_np9j4h59m9574ptl_zsh0000gn/T/XcodeDistPipeline.~~~PtJngc/Root/Applications/Energy_Charge.app/Contents/Frameworks/libswiftObjectiveC.dylib'
+2019-12-07 18:08:02 +0000  /var/folders/bb/061_np9j4h59m9574ptl_zsh0000gn/T/XcodeDistPipeline.~~~PtJngc/Root/Applications/Energy_Charge.app/Contents/Frameworks/libswiftObjectiveC.dylib: replacing existing signature
+2019-12-07 18:08:02 +0000  /var/folders/bb/061_np9j4h59m9574ptl_zsh0000gn/T/XcodeDistPipeline.~~~PtJngc/Root/Applications/Energy_Charge.app/Contents/Frameworks/libswiftObjectiveC.dylib: signed Mach-O thin (x86_64) [com.apple.dt.runtime.swiftObjectiveC]
+2019-12-07 18:08:02 +0000  /usr/bin/codesign exited with 0
+2019-12-07 18:08:02 +0000  Entitlements for <IDEDistributionItem: 0x7fc24a70f0f0; bundleID='com.project.Energy-Charge.Energy-Charge', path='<DVTFilePath:0x7fc268034630:'/Users/land/Library/Developer/Xcode/Archives/2019-12-08/Energy_Charge 2019-12-8, 2.07 AM.xcarchive/Products/Applications/Energy_Charge.app'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7fc24a6bc660; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7fc24de6ab70; name='Apple Development: Sihao Liu (8E7Q654P2A)', hash='843F722956A04CCBEF01B1ADEB9301935DD41D4C', serialNumber='377B20C0A59395E6', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2019-09-28 17:28:04 +0000''>', entitlements='{
+    "com.apple.security.app-sandbox" = 1;
+    "com.apple.security.files.user-selected.read-only" = 1;
+    "com.apple.security.network.client" = 1;
+    "com.apple.security.network.server" = 1;
+}', teamID='V8ETDGXR5B', identifier='com.project.Energy-Charge.Energy-Charge', executablePath='<DVTFilePath:0x7fc25099bbd0:'/Users/land/Library/Developer/Xcode/Archives/2019-12-08/Energy_Charge 2019-12-8, 2.07 AM.xcarchive/Products/Applications/Energy_Charge.app/Contents/MacOS/Energy_Charge'>', hardenedRuntime='1'>'>: {
+    "com.apple.security.app-sandbox" = 1;
+    "com.apple.security.files.user-selected.read-only" = 1;
+    "com.apple.security.network.client" = 1;
+    "com.apple.security.network.server" = 1;
+}
+2019-12-07 18:08:02 +0000  Writing entitlements for <IDEDistributionItem: 0x7fc24a70f0f0; bundleID='com.project.Energy-Charge.Energy-Charge', path='<DVTFilePath:0x7fc268034630:'/Users/land/Library/Developer/Xcode/Archives/2019-12-08/Energy_Charge 2019-12-8, 2.07 AM.xcarchive/Products/Applications/Energy_Charge.app'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7fc24a6bc660; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7fc24a75e8e0; name='Apple Development: Sihao Liu (8E7Q654P2A)', hash='843F722956A04CCBEF01B1ADEB9301935DD41D4C', serialNumber='377B20C0A59395E6', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2019-09-28 17:28:04 +0000''>', entitlements='{
+    "com.apple.security.app-sandbox" = 1;
+    "com.apple.security.files.user-selected.read-only" = 1;
+    "com.apple.security.network.client" = 1;
+    "com.apple.security.network.server" = 1;
+}', teamID='V8ETDGXR5B', identifier='com.project.Energy-Charge.Energy-Charge', executablePath='<DVTFilePath:0x7fc25099bbd0:'/Users/land/Library/Developer/Xcode/Archives/2019-12-08/Energy_Charge 2019-12-8, 2.07 AM.xcarchive/Products/Applications/Energy_Charge.app/Contents/MacOS/Energy_Charge'>', hardenedRuntime='1'>'> to: /var/folders/bb/061_np9j4h59m9574ptl_zsh0000gn/T/XcodeDistPipeline.~~~PtJngc/entitlements~~~ojQ6yu
+2019-12-07 18:08:02 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' 'DA272F28AE10CCD2D29177E24A440CB4CCF54CEE' '--entitlements' '/var/folders/bb/061_np9j4h59m9574ptl_zsh0000gn/T/XcodeDistPipeline.~~~PtJngc/entitlements~~~ojQ6yu' '--preserve-metadata=identifier,flags,runtime' '/var/folders/bb/061_np9j4h59m9574ptl_zsh0000gn/T/XcodeDistPipeline.~~~PtJngc/Root/Applications/Energy_Charge.app'
+2019-12-07 18:08:02 +0000  /var/folders/bb/061_np9j4h59m9574ptl_zsh0000gn/T/XcodeDistPipeline.~~~PtJngc/Root/Applications/Energy_Charge.app: replacing existing signature
+2019-12-07 18:08:02 +0000  /var/folders/bb/061_np9j4h59m9574ptl_zsh0000gn/T/XcodeDistPipeline.~~~PtJngc/Root/Applications/Energy_Charge.app: signed app bundle with Mach-O thin (x86_64) [com.project.Energy-Charge.Energy-Charge]
+2019-12-07 18:08:02 +0000  /usr/bin/codesign exited with 0
+2019-12-07 18:08:02 +0000  Processing step: IDEDistributionZipODRItemStep
+2019-12-07 18:08:02 +0000  Skipping step: IDEDistributionZipODRItemStep because it said so
+2019-12-07 18:08:02 +0000  Skipping step: IDEDistributionZipODRItemStep because it said so
+2019-12-07 18:08:02 +0000  Skipping step: IDEDistributionZipODRItemStep because it said so
+2019-12-07 18:08:02 +0000  Skipping step: IDEDistributionZipODRItemStep because it said so
+2019-12-07 18:08:02 +0000  Skipping step: IDEDistributionZipODRItemStep because it said so
+2019-12-07 18:08:02 +0000  Skipping step: IDEDistributionZipODRItemStep because it said so
+2019-12-07 18:08:02 +0000  Skipping step: IDEDistributionZipODRItemStep because it said so
+2019-12-07 18:08:02 +0000  Skipping step: IDEDistributionZipODRItemStep because it said so
+2019-12-07 18:08:02 +0000  Skipping step: IDEDistributionZipODRItemStep because it said so
+2019-12-07 18:08:02 +0000  Skipping step: IDEDistributionZipODRItemStep because it said so
+2019-12-07 18:08:02 +0000  Skipping step: IDEDistributionZipODRItemStep because it said so
+2019-12-07 18:08:02 +0000  Processing step: IDEDistributionCreatePKGStep
+2019-12-07 18:08:02 +0000  Running /usr/bin/productbuild '--sign' '3rd Party Mac Developer Installer: Sihao Liu (V8ETDGXR5B)' '--symbolication' '/var/folders/bb/061_np9j4h59m9574ptl_zsh0000gn/T/XcodeDistPipeline.~~~PtJngc/Symbols' '--component' '/var/folders/bb/061_np9j4h59m9574ptl_zsh0000gn/T/XcodeDistPipeline.~~~PtJngc/Root/Applications/Energy_Charge.app' '/Applications' '/var/folders/bb/061_np9j4h59m9574ptl_zsh0000gn/T/XcodeDistPipeline.~~~PtJngc/Packages/Energy_Charge.pkg'
+2019-12-07 18:08:13 +0000  productbuild: Adding component at /var/folders/bb/061_np9j4h59m9574ptl_zsh0000gn/T/XcodeDistPipeline.~~~PtJngc/Root/Applications/Energy_Charge.app
+productbuild: Signing product with identity "3rd Party Mac Developer Installer: Sihao Liu (V8ETDGXR5B)" from keychain /Users/land/Library/Keychains/login.keychain-db
+productbuild: Adding certificate "Apple Worldwide Developer Relations Certification Authority"
+productbuild: Adding certificate "Apple Root CA"
+productbuild: Wrote product to /var/folders/bb/061_np9j4h59m9574ptl_zsh0000gn/T/XcodeDistPipeline.~~~PtJngc/Packages/Energy_Charge.pkg
+productbuild: Supported OS versions: [10.14, )
+2019-12-07 18:08:13 +0000  /usr/bin/productbuild exited with 0
+2019-12-07 18:08:13 +0000  Processing step: IDEDistributionAppStoreInformationStep
+2019-12-07 18:08:13 +0000  Skipping step: IDEDistributionAppStoreInformationStep because it said so
+2019-12-07 18:08:13 +0000  Processing step: IDEDistributionGenerateProcessedDistributionItems
+2019-12-07 18:08:13 +0000  Processing step: IDEDistributionCreateManifestStep
+2019-12-07 18:08:13 +0000  Skipping step: IDEDistributionCreateManifestStep because it said so

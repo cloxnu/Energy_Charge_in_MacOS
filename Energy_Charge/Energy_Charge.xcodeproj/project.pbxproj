@@ -1,0 +1,746 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		647DA776C345B0126939929B /* Pods_Energy_ChargeTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE14D7F6739B816830FD28B7 /* Pods_Energy_ChargeTests.framework */; };
+		98D6563B4EB3B3E6088519B8 /* Pods_Energy_Charge.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CC3551DEA1E54D59A45E0D40 /* Pods_Energy_Charge.framework */; };
+		BE0A1EA3239BEF4300512382 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE0A1EA2239BEF4300512382 /* AppDelegate.swift */; };
+		BE0A1EA5239BEF4300512382 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE0A1EA4239BEF4300512382 /* ViewController.swift */; };
+		BE0A1EA7239BEF4700512382 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BE0A1EA6239BEF4700512382 /* Assets.xcassets */; };
+		BE0A1EAA239BEF4700512382 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BE0A1EA8239BEF4700512382 /* Main.storyboard */; };
+		BE0A1EB6239BEF4700512382 /* Energy_ChargeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE0A1EB5239BEF4700512382 /* Energy_ChargeTests.swift */; };
+		BE0A1EC1239BEF4700512382 /* Energy_ChargeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE0A1EC0239BEF4700512382 /* Energy_ChargeUITests.swift */; };
+		BE0A1ECF239C149800512382 /* StatusMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE0A1ECE239C149800512382 /* StatusMenu.swift */; };
+		BE0A1ED3239C171C00512382 /* chargeGetter.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE0A1ED2239C171C00512382 /* chargeGetter.swift */; };
+		DEC20E3B7BF5889BF3B6AA28 /* Pods_Energy_Charge_Energy_ChargeUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2C2229541458F6FF9B6655D /* Pods_Energy_Charge_Energy_ChargeUITests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BE0A1EB2239BEF4700512382 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BE0A1E97239BEF4300512382 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BE0A1E9E239BEF4300512382;
+			remoteInfo = Energy_Charge;
+		};
+		BE0A1EBD239BEF4700512382 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BE0A1E97239BEF4300512382 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BE0A1E9E239BEF4300512382;
+			remoteInfo = Energy_Charge;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		03CDA3C5B0FDC52926EE3E64 /* Pods-Energy_Charge-Energy_ChargeUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Energy_Charge-Energy_ChargeUITests.release.xcconfig"; path = "Target Support Files/Pods-Energy_Charge-Energy_ChargeUITests/Pods-Energy_Charge-Energy_ChargeUITests.release.xcconfig"; sourceTree = "<group>"; };
+		177F66A1BCB8CB497595B907 /* Pods-Energy_ChargeTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Energy_ChargeTests.release.xcconfig"; path = "Target Support Files/Pods-Energy_ChargeTests/Pods-Energy_ChargeTests.release.xcconfig"; sourceTree = "<group>"; };
+		98FDD73E51109D764F6B2E4C /* Pods-Energy_Charge.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Energy_Charge.debug.xcconfig"; path = "Target Support Files/Pods-Energy_Charge/Pods-Energy_Charge.debug.xcconfig"; sourceTree = "<group>"; };
+		AE14D7F6739B816830FD28B7 /* Pods_Energy_ChargeTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Energy_ChargeTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B5F56F812306586EA62A7CA5 /* Pods-Energy_Charge.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Energy_Charge.release.xcconfig"; path = "Target Support Files/Pods-Energy_Charge/Pods-Energy_Charge.release.xcconfig"; sourceTree = "<group>"; };
+		BE0A1E9F239BEF4300512382 /* Energy_Charge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Energy_Charge.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BE0A1EA2239BEF4300512382 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BE0A1EA4239BEF4300512382 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BE0A1EA6239BEF4700512382 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BE0A1EA9239BEF4700512382 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BE0A1EAB239BEF4700512382 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BE0A1EAC239BEF4700512382 /* Energy_Charge.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Energy_Charge.entitlements; sourceTree = "<group>"; };
+		BE0A1EB1239BEF4700512382 /* Energy_ChargeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Energy_ChargeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BE0A1EB5239BEF4700512382 /* Energy_ChargeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Energy_ChargeTests.swift; sourceTree = "<group>"; };
+		BE0A1EB7239BEF4700512382 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BE0A1EBC239BEF4700512382 /* Energy_ChargeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Energy_ChargeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BE0A1EC0239BEF4700512382 /* Energy_ChargeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Energy_ChargeUITests.swift; sourceTree = "<group>"; };
+		BE0A1EC2239BEF4700512382 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BE0A1ECE239C149800512382 /* StatusMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatusMenu.swift; sourceTree = "<group>"; };
+		BE0A1ED2239C171C00512382 /* chargeGetter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = chargeGetter.swift; sourceTree = "<group>"; };
+		BFEC71CEC407C488A4A20D54 /* Pods-Energy_Charge-Energy_ChargeUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Energy_Charge-Energy_ChargeUITests.debug.xcconfig"; path = "Target Support Files/Pods-Energy_Charge-Energy_ChargeUITests/Pods-Energy_Charge-Energy_ChargeUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		CC3551DEA1E54D59A45E0D40 /* Pods_Energy_Charge.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Energy_Charge.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F2C2229541458F6FF9B6655D /* Pods_Energy_Charge_Energy_ChargeUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Energy_Charge_Energy_ChargeUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F8831F1E4176DAA104689C2C /* Pods-Energy_ChargeTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Energy_ChargeTests.debug.xcconfig"; path = "Target Support Files/Pods-Energy_ChargeTests/Pods-Energy_ChargeTests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BE0A1E9C239BEF4300512382 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				98D6563B4EB3B3E6088519B8 /* Pods_Energy_Charge.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE0A1EAE239BEF4700512382 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				647DA776C345B0126939929B /* Pods_Energy_ChargeTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE0A1EB9239BEF4700512382 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DEC20E3B7BF5889BF3B6AA28 /* Pods_Energy_Charge_Energy_ChargeUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8C83D898B01557FB44CE7AC6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				98FDD73E51109D764F6B2E4C /* Pods-Energy_Charge.debug.xcconfig */,
+				B5F56F812306586EA62A7CA5 /* Pods-Energy_Charge.release.xcconfig */,
+				BFEC71CEC407C488A4A20D54 /* Pods-Energy_Charge-Energy_ChargeUITests.debug.xcconfig */,
+				03CDA3C5B0FDC52926EE3E64 /* Pods-Energy_Charge-Energy_ChargeUITests.release.xcconfig */,
+				F8831F1E4176DAA104689C2C /* Pods-Energy_ChargeTests.debug.xcconfig */,
+				177F66A1BCB8CB497595B907 /* Pods-Energy_ChargeTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		BE0A1E96239BEF4300512382 = {
+			isa = PBXGroup;
+			children = (
+				BE0A1EA1239BEF4300512382 /* Energy_Charge */,
+				BE0A1EB4239BEF4700512382 /* Energy_ChargeTests */,
+				BE0A1EBF239BEF4700512382 /* Energy_ChargeUITests */,
+				BE0A1EA0239BEF4300512382 /* Products */,
+				8C83D898B01557FB44CE7AC6 /* Pods */,
+				F43BCBDF9C20CC494DDBF322 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		BE0A1EA0239BEF4300512382 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BE0A1E9F239BEF4300512382 /* Energy_Charge.app */,
+				BE0A1EB1239BEF4700512382 /* Energy_ChargeTests.xctest */,
+				BE0A1EBC239BEF4700512382 /* Energy_ChargeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BE0A1EA1239BEF4300512382 /* Energy_Charge */ = {
+			isa = PBXGroup;
+			children = (
+				BE0A1EA2239BEF4300512382 /* AppDelegate.swift */,
+				BE0A1EA4239BEF4300512382 /* ViewController.swift */,
+				BE0A1ED2239C171C00512382 /* chargeGetter.swift */,
+				BE0A1ECE239C149800512382 /* StatusMenu.swift */,
+				BE0A1EA6239BEF4700512382 /* Assets.xcassets */,
+				BE0A1EA8239BEF4700512382 /* Main.storyboard */,
+				BE0A1EAB239BEF4700512382 /* Info.plist */,
+				BE0A1EAC239BEF4700512382 /* Energy_Charge.entitlements */,
+			);
+			path = Energy_Charge;
+			sourceTree = "<group>";
+		};
+		BE0A1EB4239BEF4700512382 /* Energy_ChargeTests */ = {
+			isa = PBXGroup;
+			children = (
+				BE0A1EB5239BEF4700512382 /* Energy_ChargeTests.swift */,
+				BE0A1EB7239BEF4700512382 /* Info.plist */,
+			);
+			path = Energy_ChargeTests;
+			sourceTree = "<group>";
+		};
+		BE0A1EBF239BEF4700512382 /* Energy_ChargeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BE0A1EC0239BEF4700512382 /* Energy_ChargeUITests.swift */,
+				BE0A1EC2239BEF4700512382 /* Info.plist */,
+			);
+			path = Energy_ChargeUITests;
+			sourceTree = "<group>";
+		};
+		F43BCBDF9C20CC494DDBF322 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CC3551DEA1E54D59A45E0D40 /* Pods_Energy_Charge.framework */,
+				F2C2229541458F6FF9B6655D /* Pods_Energy_Charge_Energy_ChargeUITests.framework */,
+				AE14D7F6739B816830FD28B7 /* Pods_Energy_ChargeTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BE0A1E9E239BEF4300512382 /* Energy_Charge */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BE0A1EC5239BEF4700512382 /* Build configuration list for PBXNativeTarget "Energy_Charge" */;
+			buildPhases = (
+				BD039E3F6D94A81776D72EF9 /* [CP] Check Pods Manifest.lock */,
+				BE0A1E9B239BEF4300512382 /* Sources */,
+				BE0A1E9C239BEF4300512382 /* Frameworks */,
+				BE0A1E9D239BEF4300512382 /* Resources */,
+				51E0C6289084517028F6CFEE /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Energy_Charge;
+			productName = Energy_Charge;
+			productReference = BE0A1E9F239BEF4300512382 /* Energy_Charge.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BE0A1EB0239BEF4700512382 /* Energy_ChargeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BE0A1EC8239BEF4700512382 /* Build configuration list for PBXNativeTarget "Energy_ChargeTests" */;
+			buildPhases = (
+				21369FE1548EAEEE3E22ECEB /* [CP] Check Pods Manifest.lock */,
+				BE0A1EAD239BEF4700512382 /* Sources */,
+				BE0A1EAE239BEF4700512382 /* Frameworks */,
+				BE0A1EAF239BEF4700512382 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BE0A1EB3239BEF4700512382 /* PBXTargetDependency */,
+			);
+			name = Energy_ChargeTests;
+			productName = Energy_ChargeTests;
+			productReference = BE0A1EB1239BEF4700512382 /* Energy_ChargeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BE0A1EBB239BEF4700512382 /* Energy_ChargeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BE0A1ECB239BEF4700512382 /* Build configuration list for PBXNativeTarget "Energy_ChargeUITests" */;
+			buildPhases = (
+				665BC9A4BE42A9B21FD85ED1 /* [CP] Check Pods Manifest.lock */,
+				BE0A1EB8239BEF4700512382 /* Sources */,
+				BE0A1EB9239BEF4700512382 /* Frameworks */,
+				BE0A1EBA239BEF4700512382 /* Resources */,
+				025F2F26E2FF716A09A05FC7 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BE0A1EBE239BEF4700512382 /* PBXTargetDependency */,
+			);
+			name = Energy_ChargeUITests;
+			productName = Energy_ChargeUITests;
+			productReference = BE0A1EBC239BEF4700512382 /* Energy_ChargeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BE0A1E97239BEF4300512382 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+				ORGANIZATIONNAME = Land;
+				TargetAttributes = {
+					BE0A1E9E239BEF4300512382 = {
+						CreatedOnToolsVersion = 11.0;
+					};
+					BE0A1EB0239BEF4700512382 = {
+						CreatedOnToolsVersion = 11.0;
+						TestTargetID = BE0A1E9E239BEF4300512382;
+					};
+					BE0A1EBB239BEF4700512382 = {
+						CreatedOnToolsVersion = 11.0;
+						TestTargetID = BE0A1E9E239BEF4300512382;
+					};
+				};
+			};
+			buildConfigurationList = BE0A1E9A239BEF4300512382 /* Build configuration list for PBXProject "Energy_Charge" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BE0A1E96239BEF4300512382;
+			productRefGroup = BE0A1EA0239BEF4300512382 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BE0A1E9E239BEF4300512382 /* Energy_Charge */,
+				BE0A1EB0239BEF4700512382 /* Energy_ChargeTests */,
+				BE0A1EBB239BEF4700512382 /* Energy_ChargeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BE0A1E9D239BEF4300512382 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE0A1EA7239BEF4700512382 /* Assets.xcassets in Resources */,
+				BE0A1EAA239BEF4700512382 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE0A1EAF239BEF4700512382 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE0A1EBA239BEF4700512382 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		025F2F26E2FF716A09A05FC7 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Energy_Charge-Energy_ChargeUITests/Pods-Energy_Charge-Energy_ChargeUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Energy_Charge-Energy_ChargeUITests/Pods-Energy_Charge-Energy_ChargeUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Energy_Charge-Energy_ChargeUITests/Pods-Energy_Charge-Energy_ChargeUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		21369FE1548EAEEE3E22ECEB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Energy_ChargeTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		51E0C6289084517028F6CFEE /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Energy_Charge/Pods-Energy_Charge-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Energy_Charge/Pods-Energy_Charge-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Energy_Charge/Pods-Energy_Charge-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		665BC9A4BE42A9B21FD85ED1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Energy_Charge-Energy_ChargeUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BD039E3F6D94A81776D72EF9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Energy_Charge-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BE0A1E9B239BEF4300512382 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE0A1EA5239BEF4300512382 /* ViewController.swift in Sources */,
+				BE0A1ECF239C149800512382 /* StatusMenu.swift in Sources */,
+				BE0A1ED3239C171C00512382 /* chargeGetter.swift in Sources */,
+				BE0A1EA3239BEF4300512382 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE0A1EAD239BEF4700512382 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE0A1EB6239BEF4700512382 /* Energy_ChargeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE0A1EB8239BEF4700512382 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE0A1EC1239BEF4700512382 /* Energy_ChargeUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BE0A1EB3239BEF4700512382 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BE0A1E9E239BEF4300512382 /* Energy_Charge */;
+			targetProxy = BE0A1EB2239BEF4700512382 /* PBXContainerItemProxy */;
+		};
+		BE0A1EBE239BEF4700512382 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BE0A1E9E239BEF4300512382 /* Energy_Charge */;
+			targetProxy = BE0A1EBD239BEF4700512382 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BE0A1EA8239BEF4700512382 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BE0A1EA9239BEF4700512382 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BE0A1EC3239BEF4700512382 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BE0A1EC4239BEF4700512382 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		BE0A1EC6239BEF4700512382 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 98FDD73E51109D764F6B2E4C /* Pods-Energy_Charge.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Energy_Charge/Energy_Charge.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = V8ETDGXR5B;
+				ENABLE_HARDENED_RUNTIME = YES;
+				INFOPLIST_FILE = Energy_Charge/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.project.Energy-Charge.Energy-Charge";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		BE0A1EC7239BEF4700512382 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B5F56F812306586EA62A7CA5 /* Pods-Energy_Charge.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Energy_Charge/Energy_Charge.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = V8ETDGXR5B;
+				ENABLE_HARDENED_RUNTIME = YES;
+				INFOPLIST_FILE = Energy_Charge/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.project.Energy-Charge.Energy-Charge";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		BE0A1EC9239BEF4700512382 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F8831F1E4176DAA104689C2C /* Pods-Energy_ChargeTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = V8ETDGXR5B;
+				INFOPLIST_FILE = Energy_ChargeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.project.Energy-Charge.Energy-ChargeTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Energy_Charge.app/Contents/MacOS/Energy_Charge";
+			};
+			name = Debug;
+		};
+		BE0A1ECA239BEF4700512382 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 177F66A1BCB8CB497595B907 /* Pods-Energy_ChargeTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = V8ETDGXR5B;
+				INFOPLIST_FILE = Energy_ChargeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.project.Energy-Charge.Energy-ChargeTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Energy_Charge.app/Contents/MacOS/Energy_Charge";
+			};
+			name = Release;
+		};
+		BE0A1ECC239BEF4700512382 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BFEC71CEC407C488A4A20D54 /* Pods-Energy_Charge-Energy_ChargeUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = V8ETDGXR5B;
+				INFOPLIST_FILE = Energy_ChargeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.project.Energy-Charge.Energy-ChargeUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = Energy_Charge;
+			};
+			name = Debug;
+		};
+		BE0A1ECD239BEF4700512382 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 03CDA3C5B0FDC52926EE3E64 /* Pods-Energy_Charge-Energy_ChargeUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = V8ETDGXR5B;
+				INFOPLIST_FILE = Energy_ChargeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.project.Energy-Charge.Energy-ChargeUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = Energy_Charge;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BE0A1E9A239BEF4300512382 /* Build configuration list for PBXProject "Energy_Charge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE0A1EC3239BEF4700512382 /* Debug */,
+				BE0A1EC4239BEF4700512382 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BE0A1EC5239BEF4700512382 /* Build configuration list for PBXNativeTarget "Energy_Charge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE0A1EC6239BEF4700512382 /* Debug */,
+				BE0A1EC7239BEF4700512382 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BE0A1EC8239BEF4700512382 /* Build configuration list for PBXNativeTarget "Energy_ChargeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE0A1EC9239BEF4700512382 /* Debug */,
+				BE0A1ECA239BEF4700512382 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BE0A1ECB239BEF4700512382 /* Build configuration list for PBXNativeTarget "Energy_ChargeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE0A1ECC239BEF4700512382 /* Debug */,
+				BE0A1ECD239BEF4700512382 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BE0A1E97239BEF4300512382 /* Project object */;
+}
