@@ -10,13 +10,14 @@
 		647DA776C345B0126939929B /* Pods_Energy_ChargeTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE14D7F6739B816830FD28B7 /* Pods_Energy_ChargeTests.framework */; };
 		98D6563B4EB3B3E6088519B8 /* Pods_Energy_Charge.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CC3551DEA1E54D59A45E0D40 /* Pods_Energy_Charge.framework */; };
 		BE0A1EA3239BEF4300512382 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE0A1EA2239BEF4300512382 /* AppDelegate.swift */; };
-		BE0A1EA5239BEF4300512382 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE0A1EA4239BEF4300512382 /* ViewController.swift */; };
+		BE0A1EA5239BEF4300512382 /* NotificationSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE0A1EA4239BEF4300512382 /* NotificationSettings.swift */; };
 		BE0A1EA7239BEF4700512382 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BE0A1EA6239BEF4700512382 /* Assets.xcassets */; };
 		BE0A1EAA239BEF4700512382 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BE0A1EA8239BEF4700512382 /* Main.storyboard */; };
 		BE0A1EB6239BEF4700512382 /* Energy_ChargeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE0A1EB5239BEF4700512382 /* Energy_ChargeTests.swift */; };
 		BE0A1EC1239BEF4700512382 /* Energy_ChargeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE0A1EC0239BEF4700512382 /* Energy_ChargeUITests.swift */; };
 		BE0A1ECF239C149800512382 /* StatusMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE0A1ECE239C149800512382 /* StatusMenu.swift */; };
 		BE0A1ED3239C171C00512382 /* chargeGetter.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE0A1ED2239C171C00512382 /* chargeGetter.swift */; };
+		BE2E239124728ADC00D1239C /* Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE2E239024728ADC00D1239C /* Settings.swift */; };
 		DEC20E3B7BF5889BF3B6AA28 /* Pods_Energy_Charge_Energy_ChargeUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2C2229541458F6FF9B6655D /* Pods_Energy_Charge_Energy_ChargeUITests.framework */; };
 /* End PBXBuildFile section */
 
@@ -45,7 +46,7 @@
 		B5F56F812306586EA62A7CA5 /* Pods-Energy_Charge.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Energy_Charge.release.xcconfig"; path = "Target Support Files/Pods-Energy_Charge/Pods-Energy_Charge.release.xcconfig"; sourceTree = "<group>"; };
 		BE0A1E9F239BEF4300512382 /* Energy_Charge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Energy_Charge.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BE0A1EA2239BEF4300512382 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		BE0A1EA4239BEF4300512382 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BE0A1EA4239BEF4300512382 /* NotificationSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationSettings.swift; sourceTree = "<group>"; };
 		BE0A1EA6239BEF4700512382 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BE0A1EA9239BEF4700512382 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		BE0A1EAB239BEF4700512382 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -58,6 +59,7 @@
 		BE0A1EC2239BEF4700512382 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BE0A1ECE239C149800512382 /* StatusMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatusMenu.swift; sourceTree = "<group>"; };
 		BE0A1ED2239C171C00512382 /* chargeGetter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = chargeGetter.swift; sourceTree = "<group>"; };
+		BE2E239024728ADC00D1239C /* Settings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Settings.swift; sourceTree = "<group>"; };
 		BFEC71CEC407C488A4A20D54 /* Pods-Energy_Charge-Energy_ChargeUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Energy_Charge-Energy_ChargeUITests.debug.xcconfig"; path = "Target Support Files/Pods-Energy_Charge-Energy_ChargeUITests/Pods-Energy_Charge-Energy_ChargeUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		CC3551DEA1E54D59A45E0D40 /* Pods_Energy_Charge.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Energy_Charge.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F2C2229541458F6FF9B6655D /* Pods_Energy_Charge_Energy_ChargeUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Energy_Charge_Energy_ChargeUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -131,13 +133,14 @@
 			isa = PBXGroup;
 			children = (
 				BE0A1EA2239BEF4300512382 /* AppDelegate.swift */,
-				BE0A1EA4239BEF4300512382 /* ViewController.swift */,
+				BE0A1EA4239BEF4300512382 /* NotificationSettings.swift */,
 				BE0A1ED2239C171C00512382 /* chargeGetter.swift */,
 				BE0A1ECE239C149800512382 /* StatusMenu.swift */,
 				BE0A1EA6239BEF4700512382 /* Assets.xcassets */,
 				BE0A1EA8239BEF4700512382 /* Main.storyboard */,
 				BE0A1EAB239BEF4700512382 /* Info.plist */,
 				BE0A1EAC239BEF4700512382 /* Energy_Charge.entitlements */,
+				BE2E239024728ADC00D1239C /* Settings.swift */,
 			);
 			path = Energy_Charge;
 			sourceTree = "<group>";
@@ -408,10 +411,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BE0A1EA5239BEF4300512382 /* ViewController.swift in Sources */,
+				BE0A1EA5239BEF4300512382 /* NotificationSettings.swift in Sources */,
 				BE0A1ECF239C149800512382 /* StatusMenu.swift in Sources */,
 				BE0A1ED3239C171C00512382 /* chargeGetter.swift in Sources */,
 				BE0A1EA3239BEF4300512382 /* AppDelegate.swift in Sources */,
+				BE2E239124728ADC00D1239C /* Settings.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
