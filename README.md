@@ -13,6 +13,22 @@ Monitoring the energy charge work on macOS in CJLU.
 
 ---
 
+## 2020-05-23 00:35 更新
+
+连接错误变灰
+
+![conn_err](conn_err.jpg)
+
+低电费变红
+
+![charge_low](charge_low.jpg)
+
+其他寝室
+
+![other_room](other_room.jpg)
+
+---
+
 ## 缘起
 
 学校寝室里配了台台式，写了大半学期的 iOS，这一切都如此顺利。
