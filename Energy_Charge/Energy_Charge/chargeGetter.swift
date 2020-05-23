@@ -10,7 +10,7 @@ import Cocoa
 import Alamofire
 
 protocol chargeDelegate {
-    func chargeChanged(amount: String)
+    func chargeChanged(amount: Double)
     func chargeGetError(errorDisc: String)
     func notificate(disc: String)
 }
@@ -60,7 +60,7 @@ class chargeGetter
                         {
                             if let charge = data["amount"] as? Double
                             {
-                                self.delegate?.chargeChanged(amount: String(charge))
+                                self.delegate?.chargeChanged(amount: charge)
                                 print(charge)
                                 self.chargeProcess(charge: charge)
                                 return
@@ -85,10 +85,13 @@ class chargeGetter
     {
         if self.is_enable_notification
         {
-            if charge <= self.low_energy_threshold && !self.has_notificate_low_energy
+            if charge <= self.low_energy_threshold
             {
-                self.has_notificate_low_energy = true
-                self.delegate?.notificate(disc: "您的电费低于 ¥\(self.low_energy_threshold)，请尽快充值。")
+                if !self.has_notificate_low_energy
+                {
+                    self.has_notificate_low_energy = true
+                    self.delegate?.notificate(disc: "您的电费低于 ¥\(self.low_energy_threshold)，请尽快充值。")
+                }
             }
             else
             {

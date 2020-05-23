@@ -66,10 +66,16 @@ extension StatusMenu: chargeDelegate
 {
     func chargeGetError(errorDisc: String) {
         self.UpdateAt.title = errorDisc
+        self.statusItem.button?.contentTintColor = .gray
     }
     
-    func chargeChanged(amount: String) {
-        statusItem.button?.title = "电费：¥" + amount
+    func chargeChanged(amount: Double) {
+        if amount < Settings.shared.low_energy_threshold {
+            self.statusItem.button?.contentTintColor = .red
+        } else {
+            self.statusItem.button?.contentTintColor = .none
+        }
+        statusItem.button?.title = "电费：¥" + String(amount)
         let dateFormatter = DateFormatter()
         dateFormatter.dateFormat = "YYYY-MM-dd HH:mm:ss"
         self.UpdateAt.title = "更新于：" + dateFormatter.string(from: Date())
